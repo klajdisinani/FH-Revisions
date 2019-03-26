@@ -291,8 +291,10 @@ The rest of the paper is organized as follows: In Section  \ref{sec:intro} we br
 
 %Error Measures
 \section{$\ch_2$-Optimal Model Reduction: The Infinite Horizon Case} \label{sec:intro}
-Model reduction with respect to the $\ch_2$ norm in the infinite horizon case has been studied extensively; see, for examples, \cite{BarCO91, BryC90 , FulO90, MeiL67, Hal92, HylB85, SpaMM92, YanL99, LepMPV91, GugBA08,AniBGA13,Wil70, vuillemin2014poles,CasL18, panzer2013, gerstner2007hom, VanGA08, breiten2013near} and the references therein. 
+Model reduction with respect to the $\ch_2$ norm in the infinite horizon case has been studied extensively; see, for examples, \cite{BarCO91,BryC90, FulO90, MeiL67, Hal92, HylB85, SpaMM92, YanL99, LepMPV91, GugBA08,AniBGA13,Wil70, vuillemin2014poles,CasL18, panzer2013, gerstner2007hom, VanGA08, breiten2013near} and the references therein. 
 In this section, we briefly recall these results as they will help to highlight the similarities to and differences from the finite-horizon case that we are interested in.
+
+
 \subsection{$\ch_2$ Norm and $\ch_2$ Error Measure}
 The error analysis for model reduction of linear dynamical systems can be conducted either in the frequency domain or in the time domain. Therefore, we define the $\ch_2$ norm in each domain. 
 \begin{Definition}
@@ -302,7 +304,9 @@ $\h(t)$ stable when $\A$ has some semi-simple eigenvalues on the imaginary axis 
 linear dynamical systems with real state-space realizations.
 The $\ch_2$ inner product $\langle \cdot, \cdot \rangle_{\ch_2}$ and the $\ch_2$ norm $\| \cdot \|_{\ch_2}$  are 
 \begin{align*}
-\langle \h, \g \rangle_{\ch_2} =\int_0^\infty \mathsf{Tr}\left((\h(t))^T \g(t)\right) dt \quad \mbox{and}\quad \norm{\h}_{\ch_2}= \sqrt{ \int_0^\infty \norm{\h}_F^2 dt },
+\langle \h, \g \rangle_{\ch_2} &=\int_0^\infty \mathsf{Tr}\left((\h(t))^T \g(t)\right) dt,\\
+% \quad \mbox{and}\quad 
+\norm{\h}_{\ch_2}&= \sqrt{ \int_0^\infty \norm{\h}_F^2 dt },
 \end{align*} 
 respectively, where $ \mathsf{Tr}(\cdot)$ denotes the trace and $\norm{\cdot}_F$ denotes the Frobenius norm of a matrix.
 \end{Definition}
@@ -310,12 +314,12 @@ To define the $\ch_2$ norm in the frequency domain, let $\Y(s)$, $\U(s)$, and $\
  the output $\y(t)$, the input $\uu(t)$, and the impulse response $\h(t) = \C e^{\A t}\B$
 in \eqref{fom1}. Then, taking the Laplace transform of the convolution integral in  \eqref{fom1}, we obtain
 
-\begin{align*}
-\Y(s)= \HH(s) \U(s),  \quad \mbox{where} \quad \HH(s) &=\C(s\I-\A)^{-1}\B
-\end{align*}
+
+$\Y(s)= \HH(s) \U(s),  \quad \mbox{where} \quad \HH(s) =\C(s\I-\A)^{-1}\B$
+
 is called the transfer function of \eqref{fom1}. Let $\{\rho_1,\rho_2,\ldots,\rho_n\}$ denote the eigenvalues of $\A$, assumed simple. Then, similar to the parametrization of the reduced model $\h_r(t)$ in \eqref{kernel}, the full-model impulse response can be equivalently written as 
 \begin{equation} \label{eqn:hfull}
-\h(t) = \sum_{i=1}^n e^{\rho_i t} \cc_i \bb_i^T~~\mbox{with~the~transfer~function}~~
+\h(t) = \sum_{i=1}^n e^{\rho_i t} \cc_i \bb_i^T~~\mbox{with}~~
 \HH(s) =\sum_{i=1}^n \frac{\cc_i \bb_i^T}{s-\rho_i},
 \end{equation}
 where $\cc_i \in \CC^{p}$ and $\bb_i \in \CC^m$, for $i=1,\ldots,n$.
@@ -326,12 +330,13 @@ Let $\HH(s)$ and $\G(s)$ denote the transfer functions  of two asymptotically st
 The $\ch_2$ inner product $\langle \cdot, \cdot \rangle_{\ch_2}$ 
 and the $\ch_2$ norm $\| \cdot \|_{\ch_2}$ are
 \begin{align*}
-\langle \G, \HH \rangle_{\ch_2}:=\dfrac{1}{2\pi}\int_{-\infty}^\infty \mathsf{Tr}(\overline{\G}(-\imath\omega)\HH^T(\imath\omega)) d\omega \qquad
-\mbox{and} \qquad
-\norm{ \HH}_{\ch_2}:=\sqrt{\dfrac{1}{2\pi} \int_{-\infty}^\infty \norm{\HH(i\omega)}_F^2 d\omega},
+\langle \G, \HH \rangle_{\ch_2}&:=\dfrac{1}{2\pi}\int_{-\infty}^\infty \mathsf{Tr}(\overline{\G}(-\imath\omega)\HH^T(\imath\omega)) d\omega \\
+%\qquad \mbox{and} \qquad\\
+\norm{ \HH}_{\ch_2}&:=\sqrt{\dfrac{1}{2\pi} \int_{-\infty}^\infty \norm{\HH(i\omega)}_F^2 d\omega},
 \end{align*}
 respectively.
 \end{Definition}
+
 Similar to $\HH(s)$, let $\HH_r(s)=\C_r(s\I_r-\A_r)^{-1}\B_r$ denote the transfer function of the reduced model. Then, the relevance and importance of the $\ch_2$ norm in the model reduction become clear by noting that 
 \begin{equation}
 \begin{aligned}
@@ -734,7 +739,6 @@ We have created the unstable system such that it has $400$ stable poles and $2$ 
 For all three models, we choose $t_f = 1$, first reduce the original model using POD, \goyal \  or TLBT, and then use the resulting reduced model  to initialize \FH. Thus, we are trying to investigate how these different initializations affect the final reduced model via  \FH \ and how much improvement one might expect.
 The results are shown in Figures \ref{fig:hm}--\ref{fig:uns},  where we show the $\ch_2(\tf)$ approximation error for different values of $r$, the order of the reduced model.
   All three initializations are used for the heat model (Figure \ref{fig:hm}) where the order is reduced from $r=2$ to $r=10$ with increments of one. For some $r$ values, certain initializations are excluded (e.g., the \goyal \ initialization for $r=6$) since the algorithm either did not converge or produced  poor approximations. However, this happened rarely. For the ISS model (Figure \ref{fig:iss}), we use  TLBT and \goyal \ initializations since  POD produced very poor approximations and thus is excluded. In this case, we reduce the order from $r=2$ to $r=14$ with increments of $2$. For the unstable model (Figure \ref{fig:uns}), we use POD and \goyal \ initializations; for this model our implementation of TLBT produced  poor results and is avoided. In this case,  we reduce the order from $r=2$ to $r=12$ with increments of $2$.  
-
  The first observation is that,  since  \FH \ is a descent-method and drives the initialization to a local minimizer,  it improves the accuracy of  the reduced model for all three initializations as expected. The improvements could be dramatic. For example, 
  \FH \ is able to outperform POD as much as by an order of magnitude, see, for example,
  Figure \ref{fig:hm}, the  $r=4$ and $r=5$ cases. 
@@ -747,7 +751,7 @@ The best improvement of the \goyal \ initialization has occurred for the unstabl
  \centering
  \includegraphics [scale=0.4]{allDataHeatF} 
  \caption{\FH \ and other algorithms for a heat model\label{fig:hm}}
- \end{subfigure}%
+ \end{subfigure}
  \begin{subfigure}{.5\textwidth}
  \centering
  \includegraphics [scale=0.4]{ErrorVSrISSF}

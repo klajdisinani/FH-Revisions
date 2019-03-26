@@ -44,6 +44,11 @@ T.~Breiten, C.A. Beattie, and S.~Gugercin.
 \newblock Near-optimal frequency-weighted interpolatory model reduction.
 \newblock {\em Systems \& Control Letters}, 78:8--18, 2015.
 
+\bibitem{BryC90}
+A.~E. Bryson and A.~Carrier.
+\newblock Second-order algorithm for optimal model order reduction.
+\newblock {\em J. Guidance Control Dynam.}, 13:887--892, 1990.
+
 \bibitem{gerstner2007hom}
 Angelika Bunse-Gerstner, Dorota Kubali{\'n}ska, Georg Vossen, and Diane
   Wilczek.

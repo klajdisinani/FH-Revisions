@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.23)  26 MAR 2019 12:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.23)  26 MAR 2019 14:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1937,9 +1937,6 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 293.
 
 
-LaTeX Warning: Citation ` BryC90 ' on page 2 undefined on input line 294.
-
-
 LaTeX Warning: Citation ` FulO90' on page 2 undefined on input line 294.
 
 
@@ -1986,178 +1983,161 @@ LaTeX Warning: Citation ` breiten2013near' on page 2 undefined on input line 29
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 296.
+(hyperref)                removing `math shift' on input line 298.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 296.
+(hyperref)                removing `subscript' on input line 298.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 296.
+(hyperref)                removing `math shift' on input line 298.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 296.
+(hyperref)                removing `math shift' on input line 298.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 296.
+(hyperref)                removing `subscript' on input line 298.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 296.
+(hyperref)                removing `math shift' on input line 298.
 
 Package hyperref Info: bookmark level for unknown Definition defaults to 0 on i
-nput line 299.
+nput line 301.
 
-Overfull \hbox (55.7478pt too wide) detected at line 306
-[]
+Overfull \hbox (2.87032pt too wide) in paragraph at lines 320--321
+[]\T1/cmr/m/n/10 is called the trans-fer func-tion of []. Let $\OMS/cmsy/m/n/10
+ f\OML/cmm/m/it/10 ^^Z[]; ^^Z[]; [] ; ^^Z[]\OMS/cmsy/m/n/10 g$
  []
 
 
-Overfull \hbox (2.87032pt too wide) in paragraph at lines 315--317
-\T1/cmr/m/n/10 is called the trans-fer func-tion of []. Let $\OMS/cmsy/m/n/10 f
-\OML/cmm/m/it/10 ^^Z[]; ^^Z[]; [] ; ^^Z[]\OMS/cmsy/m/n/10 g$
- []
+Underfull \vbox (badness 2293) has occurred while \output is active []
 
-
-Overfull \hbox (43.2481pt too wide) detected at line 320
-[][]\OT1/cmr/bx/n/10 h\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 ) = []
- \OML/cmm/m/it/10 e[][][][][] [] [][] [] []\OT1/cmr/bx/n/10 H\OT1/cmr/m/n/10 (\
-OML/cmm/m/it/10 s\OT1/cmr/m/n/10 ) = [] []\OML/cmm/m/it/10 ;
- []
-
-
-Overfull \hbox (163.73557pt too wide) detected at line 332
-[]
- []
-
-[2]
+ [2]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 347.
+(hyperref)                removing `math shift' on input line 352.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 347.
+(hyperref)                removing `subscript' on input line 352.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 347.
+(hyperref)                removing `math shift' on input line 352.
 
 
-LaTeX Warning: Citation ` GugBA08' on page 3 undefined on input line 349.
+LaTeX Warning: Citation ` GugBA08' on page 3 undefined on input line 354.
 
 Package hyperref Info: bookmark level for unknown theorem defaults to 0 on inpu
-t line 350.
+t line 355.
 
-Overfull \hbox (0.8747pt too wide) detected at line 354
+Overfull \hbox (0.8747pt too wide) detected at line 359
 \OT1/cmr/bx/n/10 h[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 ) = [] \
 OML/cmm/m/it/10 e[][][][][]  \OMS/cmsy/m/n/10 ([])  \OT1/cmr/bx/n/10 H[]\OT1/cm
 r/m/n/10 (\OML/cmm/m/it/10 s\OT1/cmr/m/n/10 ) = [] []
  []
 
 
-Overfull \hbox (164.14589pt too wide) detected at line 360
+Overfull \hbox (164.14589pt too wide) detected at line 365
 []
  []
 
 
-LaTeX Warning: Citation ` GugBA08' on page 3 undefined on input line 362.
+LaTeX Warning: Citation ` GugBA08' on page 3 undefined on input line 367.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 367.
+(hyperref)                removing `math shift' on input line 372.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 367.
+(hyperref)                removing `subscript' on input line 372.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 367.
+(hyperref)                removing `subscript' on input line 372.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 367.
+(hyperref)                removing `math shift' on input line 372.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 375.
+(hyperref)                removing `math shift' on input line 380.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 375.
+(hyperref)                removing `subscript' on input line 380.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 375.
+(hyperref)                removing `subscript' on input line 380.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 375.
+(hyperref)                removing `math shift' on input line 380.
 
 
-Overfull \hbox (89.0953pt too wide) detected at line 385
+Overfull \hbox (89.0953pt too wide) detected at line 390
 []
  []
 
 
-Underfull \hbox (badness 3849) in paragraph at lines 390--390
+Underfull \hbox (badness 3849) in paragraph at lines 395--395
 []\T1/cmr/m/it/10 Finite Hori-zon Interpolation-based Con-di-tions
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 390.
+(hyperref)                removing `math shift' on input line 395.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 390.
+(hyperref)                removing `subscript' on input line 395.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 390.
+(hyperref)                removing `subscript' on input line 395.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 390.
+(hyperref)                removing `math shift' on input line 395.
 
 [3]
-Overfull \hbox (15.7145pt too wide) detected at line 409
+Overfull \hbox (15.7145pt too wide) detected at line 414
 [][][][]
  []
 
 Package hyperref Info: bookmark level for unknown Lemma defaults to 0 on input 
-line 414.
+line 419.
 
-Overfull \hbox (186.47368pt too wide) detected at line 437
+Overfull \hbox (186.47368pt too wide) detected at line 442
 []
  []
 
 
-Underfull \hbox (badness 2680) in paragraph at lines 437--439
+Underfull \hbox (badness 2680) in paragraph at lines 442--444
 \T1/cmr/m/n/10 Computing the in-te-gral and us-ing the fact that
  []
 
 
-Overfull \hbox (140.26215pt too wide) detected at line 442
+Overfull \hbox (140.26215pt too wide) detected at line 447
 []
  []
-
-
-Underfull \vbox (badness 2418) has occurred while \output is active []
 
 Package hyperref Info: bookmark level for unknown remark defaults to 0 on input
- line 477.
- [4]
-Overfull \hbox (27.94533pt too wide) detected at line 490
+ line 482.
+[4]
+Overfull \hbox (27.94533pt too wide) detected at line 495
 []
  []
 
 
-Overfull \hbox (0.25319pt too wide) in paragraph at lines 492--494
+Overfull \hbox (0.25319pt too wide) in paragraph at lines 497--499
 \T1/cmr/bx/n/10 PROOF.\T1/cmr/m/n/10 Recall the def-i-ni-tion of $\OT1/cmr/bx/n
 /10 G\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s\OT1/cmr/m/n/10 ) = \OMS/cmsy/m/n/10 ^^
 @\OML/cmm/m/it/10 e[]\OT1/cmr/bx/n/10 C\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s\OT1/
@@ -2165,39 +2145,37 @@ cmr/bx/n/10 I \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Underfull \hbox (badness 4108) in paragraph at lines 492--494
+Underfull \hbox (badness 4108) in paragraph at lines 497--499
 \T1/cmr/m/n/10 fact and the pole-zero residue de-com-po-si-tion of
  []
 
 
-Overfull \hbox (151.88478pt too wide) detected at line 499
+Overfull \hbox (151.88478pt too wide) detected at line 504
 []
  []
 
 
-Overfull \hbox (25.22035pt too wide) detected at line 516
+Underfull \vbox (badness 5908) has occurred while \output is active []
+
+
+Overfull \hbox (25.22035pt too wide) detected at line 521
 \U/eus/m/n/10 J \OT1/cmr/m/n/10 = [][] = [][] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n
 /10 2\OMS/cmsy/m/n/10 h\OT1/cmr/bx/n/10 h\OML/cmm/m/it/10 ; \OT1/cmr/bx/n/10 h[
 ]\OMS/cmsy/m/n/10 i[] \OT1/cmr/m/n/10 + [][] \OML/cmm/m/it/10 :
  []
 
 
-Overfull \hbox (97.14012pt too wide) detected at line 523
+Overfull \hbox (97.14012pt too wide) detected at line 528
 [][][][]
  []
 
 
-Overfull \hbox (149.4792pt too wide) detected at line 533
+Overfull \hbox (149.4792pt too wide) detected at line 538
 [][][][]
  []
 
 
-Overfull \hbox (196.48927pt too wide) detected at line 541
-[]
- []
-
-
-Overfull \hbox (89.51096pt too wide) detected at line 546
+Overfull \hbox (196.48927pt too wide) detected at line 546
 []
  []
 
@@ -2205,45 +2183,46 @@ Overfull \hbox (89.51096pt too wide) detected at line 546
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
-Overfull \hbox (18.9308pt too wide) detected at line 552
+Overfull \hbox (89.51096pt too wide) detected at line 551
 []
  []
 
 
-LaTeX Warning: Command \k invalid in math mode on input line 558.
+Overfull \hbox (18.9308pt too wide) detected at line 557
+[]
+ []
 
 
-Overfull \hbox (77.02866pt too wide) detected at line 560
+LaTeX Warning: Command \k invalid in math mode on input line 563.
+
+
+Overfull \hbox (77.02866pt too wide) detected at line 565
 [][][][]
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 640.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 635.
+(hyperref)                removing `subscript' on input line 640.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 635.
+(hyperref)                removing `subscript' on input line 640.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 635.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 635.
+(hyperref)                removing `math shift' on input line 640.
 
 [6]
-Overfull \hbox (2.79733pt too wide) in paragraph at lines 661--661
+Overfull \hbox (2.79733pt too wide) in paragraph at lines 666--666
 []\T1/cmr/m/it/10 A descent-type al-go-rithm for the single-input/single-
  []
 
 
-Overfull \hbox (142.70894pt too wide) detected at line 666
+Overfull \hbox (142.70894pt too wide) detected at line 671
 [][]\OT1/cmr/bx/n/10 H\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s\OT1/cmr/m/n/10 ) = []
 [](\OML/cmm/m/it/10 s\OT1/cmr/bx/n/10 I \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/bx/n/10 A
 \OT1/cmr/m/n/10 )[][] = [] [] [] \OT1/cmr/bx/n/10 H[]\OT1/cmr/m/n/10 (\OML/cmm/
@@ -2253,9 +2232,9 @@ msy/m/n/10 ^^@ \OT1/cmr/bx/n/10 A[]\OT1/cmr/m/n/10 )[][][] = [] []\OML/cmm/m/it
  []
 
 Package hyperref Info: bookmark level for unknown corollary defaults to 0 on in
-put line 670.
+put line 675.
 
-Overfull \hbox (174.6539pt too wide) detected at line 674
+Overfull \hbox (174.6539pt too wide) detected at line 679
 \OT1/cmr/bx/n/10 G\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s\OT1/cmr/m/n/10 ) = \OMS/c
 msy/m/n/10 ^^@\OML/cmm/m/it/10 e[][][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s\OT1/c
 mr/bx/n/10 I \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/bx/n/10 A\OT1/cmr/m/n/10 )[]\OML/cmm
@@ -2269,17 +2248,17 @@ x/n/10 H[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s\OT1/cmr/m/n/10 )\OML/cmm/m/it/10
  []
 
 
-Overfull \hbox (0.89536pt too wide) detected at line 679
-[]
- []
-
-
-Overfull \hbox (76.74213pt too wide) detected at line 692
+Overfull \hbox (0.89536pt too wide) detected at line 684
 []
  []
 
 [7]
-Overfull \hbox (37.7686pt too wide) detected at line 698
+Overfull \hbox (76.74213pt too wide) detected at line 697
+[]
+ []
+
+
+Overfull \hbox (37.7686pt too wide) detected at line 703
 \OT1/cmr/bx/n/10 z[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 e[][][]\OT1/cmr/m/n/10 
 (\OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 ^^U[]\OT1/cmr/bx/n/10 I \OMS/cmsy/m/n/10 
 ^^@ \OT1/cmr/bx/n/10 A\OT1/cmr/m/n/10 )[]\OML/cmm/m/it/10 e[][] \OMS/cmsy/m/n/1
@@ -2289,14 +2268,14 @@ Overfull \hbox (37.7686pt too wide) detected at line 698
  []
 
 
-Overfull \hbox (19.02051pt too wide) in paragraph at lines 709--712
+Overfull \hbox (19.02051pt too wide) in paragraph at lines 714--717
 \T1/cmr/m/n/10 where $\OT1/cmr/bx/n/10 w \OMS/cmsy/m/n/10 2 \U/msb/m/n/10 C[]$ 
 \T1/cmr/m/n/10 has the en-tries $\OT1/cmr/bx/n/10 w[] \OT1/cmr/m/n/10 = [][] \O
 ML/cmm/m/it/10  [][]$
  []
 
 
-Underfull \hbox (badness 4556) in paragraph at lines 728--729
+Underfull \hbox (badness 4556) in paragraph at lines 733--734
 \T1/cmr/m/n/10 FHIRKA with Proper Or-thog-o-nal De-com-po-si-tion
  []
 
@@ -2308,16 +2287,16 @@ Package epstopdf Info: Source file: <allDataHeatF.eps>
 (epstopdf)                    size: 13962 bytes
 (epstopdf)             Command: <repstopdf --outfile=allDataHeatF-eps-converted
 -to.pdf allDataHeatF.eps>
-(epstopdf)             \includegraphics on input line 748.
+(epstopdf)             \includegraphics on input line 752.
 Package epstopdf Info: Output file is already uptodate.
-<allDataHeatF-eps-converted-to.pdf, id=181, pagebox=cropbox, 562.1pt x 421.575p
+<allDataHeatF-eps-converted-to.pdf, id=179, pagebox=cropbox, 562.1pt x 421.575p
 t>
 File: allDataHeatF-eps-converted-to.pdf Graphic file (type pdf)
 <use allDataHeatF-eps-converted-to.pdf>
 Package pdftex.def Info: allDataHeatF-eps-converted-to.pdf  used on input line 
-748. on input line 748.
+752. on input line 752.
 Package pdftex.def Info: Requested size: 224.83601pt x 168.627pt on input line 
-748.
+752.
 Package epstopdf Info: Source file: <ErrorVSrISSF.eps>
 (epstopdf)                    date: 2018-06-11 13:34:45
 (epstopdf)                    size: 28045 bytes
@@ -2326,16 +2305,16 @@ Package epstopdf Info: Source file: <ErrorVSrISSF.eps>
 (epstopdf)                    size: 12535 bytes
 (epstopdf)             Command: <repstopdf --outfile=ErrorVSrISSF-eps-converted
 -to.pdf ErrorVSrISSF.eps>
-(epstopdf)             \includegraphics on input line 753.
+(epstopdf)             \includegraphics on input line 757.
 Package epstopdf Info: Output file is already uptodate.
-<ErrorVSrISSF-eps-converted-to.pdf, id=182, pagebox=cropbox, 562.1pt x 421.575p
+<ErrorVSrISSF-eps-converted-to.pdf, id=180, pagebox=cropbox, 562.1pt x 421.575p
 t>
 File: ErrorVSrISSF-eps-converted-to.pdf Graphic file (type pdf)
 <use ErrorVSrISSF-eps-converted-to.pdf>
 Package pdftex.def Info: ErrorVSrISSF-eps-converted-to.pdf  used on input line 
-753. on input line 753.
+757. on input line 757.
 Package pdftex.def Info: Requested size: 224.83601pt x 168.627pt on input line 
-753.
+757.
 Package epstopdf Info: Source file: <ErrorVSrUNSF.eps>
 (epstopdf)                    date: 2018-06-11 13:35:46
 (epstopdf)                    size: 30857 bytes
@@ -2344,46 +2323,57 @@ Package epstopdf Info: Source file: <ErrorVSrUNSF.eps>
 (epstopdf)                    size: 12778 bytes
 (epstopdf)             Command: <repstopdf --outfile=ErrorVSrUNSF-eps-converted
 -to.pdf ErrorVSrUNSF.eps>
-(epstopdf)             \includegraphics on input line 758.
+(epstopdf)             \includegraphics on input line 762.
 Package epstopdf Info: Output file is already uptodate.
-<ErrorVSrUNSF-eps-converted-to.pdf, id=183, pagebox=cropbox, 562.1pt x 421.575p
+<ErrorVSrUNSF-eps-converted-to.pdf, id=181, pagebox=cropbox, 562.1pt x 421.575p
 t>
 File: ErrorVSrUNSF-eps-converted-to.pdf Graphic file (type pdf)
 <use ErrorVSrUNSF-eps-converted-to.pdf>
 Package pdftex.def Info: ErrorVSrUNSF-eps-converted-to.pdf  used on input line 
-758. on input line 758.
+762. on input line 762.
 Package pdftex.def Info: Requested size: 224.83601pt x 168.627pt on input line 
-758.
+762.
 
-Overfull \hbox (264.0pt too wide) in paragraph at lines 746--761
- []$[]$$[]$ 
+Overfull \hbox (12.0pt too wide) in paragraph at lines 750--765
+ []$[]$ 
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 746--761
+Overfull \hbox (12.0pt too wide) in paragraph at lines 750--765
  []$ 
  []
 
-[8] (./FH Optimality Conditions Paper.bbl [9 <./allDataHeatF-eps-converted-to.p
-df> <./ErrorVSrISSF-eps-converted-to.pdf> <./ErrorVSrUNSF-eps-converted-to.pdf>
-]) [10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 780.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 780.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 750--765
+ []$ 
+ []
+
+[8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9 <./allDataHeatF-eps-converted-to.pdf> <./ErrorVSrISSF-eps-converted-to.pdf>
+ <./ErrorVSrUNSF-eps-converted-to.pdf>] (./FH Optimality Conditions Paper.bbl [
+10])
+[11
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 784.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 784.
  (./FH Optimality Conditions Paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 780.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 780.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 784.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 784.
 Package rerunfilecheck Info: File `"FH Optimality Conditions Paper".out' has no
 t changed.
 (rerunfilecheck)             Checksum: 055725597478D9ED62C45B4C5CAEC67C;1079.
  ) 
 Here is how much of TeX's memory you used:
- 42840 strings out of 492990
- 964174 string characters out of 6132636
- 1107741 words of memory out of 5000000
+ 42842 strings out of 492990
+ 964190 string characters out of 6132636
+ 1106771 words of memory out of 5000000
  45619 multiletter control sequences out of 15000+600000
  562249 words of font info for 127 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,15n,128p,10404b,852s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 74i,15n,128p,10404b,854s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></u
@@ -2427,11 +2417,11 @@ pe1/public/cm-super/sfsl0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
 public/cm-super/sfti0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
 blic/cm-super/sfti1000.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
 ic/cm-super/sftt0900.pfb>
-Output written on "FH Optimality Conditions Paper.pdf" (10 pages, 599334 bytes)
+Output written on "FH Optimality Conditions Paper.pdf" (11 pages, 600701 bytes)
 .
 PDF statistics:
- 416 PDF objects out of 1000 (max. 8388607)
- 346 compressed objects within 4 object streams
- 103 named destinations out of 1000 (max. 500000)
+ 421 PDF objects out of 1000 (max. 8388607)
+ 350 compressed objects within 4 object streams
+ 105 named destinations out of 1000 (max. 500000)
  132 words of extra memory for PDF output out of 10000 (max. 10000000)
 
