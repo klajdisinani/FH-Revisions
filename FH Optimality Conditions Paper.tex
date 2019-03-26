@@ -1,7 +1,8 @@
-\documentclass[preprint]{elsarticle}
+%\documentclass[preprint]{elsarticle}
+\documentclass[twocolumn]{autart}  
 \usepackage{graphics, euscript, float,blkarray, listings}
 \usepackage {graphicx}
-\usepackage[top = 1 in, bottom = 1 in, right = 1 in, left = 1 in]{geometry}
+%\usepackage[top = 1 in, bottom = 1 in, right = 1 in, left = 1 in]{geometry}
 \usepackage{tabularx, booktabs, array, float, framed}
 \usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
 \usepackage{appendix, setspace}
@@ -10,7 +11,7 @@
 \usepackage[utf8]{inputenc}
 \definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
 \definecolor{mylilas}{RGB}{170,55,241}
-\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{amsmath,amsfonts,amssymb}
 \usepackage{mathtools,thmtools,etoolbox}
 \usepackage{algorithm,algorithmicx,algpseudocode}
 \usepackage{booktabs,subcaption}
@@ -19,12 +20,12 @@
 \usepackage{lineno}
 \usepackage{todonotes}
 \usepackage[colorlinks,citecolor=black]{hyperref}
-\usepackage{cleveref}
+%\usepackage{cleveref}
 \usepackage[scientific-notation=true]{siunitx}
 \usepackage{multicol}
 \usepackage[font={large}]{caption}
 \usepackage{subcaption}
-\usepackage{natbib}
+%\usepackage{natbib}
 
 
 
@@ -35,37 +36,37 @@
 
 % Theorem definitions
 \newtheorem{theorem}{Theorem}[section]
-\crefname{theorem}{theorem}{theorems}
-\Crefname{theorem}{Theorem}{Theorems}
+%\crefname{theorem}{theorem}{theorems}
+%\Crefname{theorem}{Theorem}{Theorems}
 
-\newtheorem{prop}[theorem]{Proposition}
-\crefname{prop}{proposition}{propositions}
-\Crefname{prop}{Proposition}{Propositions}
+%\newtheorem{prop}[theorem]{Proposition}
+%\crefname{prop}{proposition}{propositions}
+%\Crefname{prop}{Proposition}{Propositions}
 
 \newtheorem{lemma}[theorem]{Lemma}
-\crefname{lemma}{lemma}{lemmas}
-\Crefname{lemma}{Lemma}{Lemmas}
+%\crefname{lemma}{lemma}{lemmas}
+%\Crefname{lemma}{Lemma}{Lemmas}
 
 \newtheorem{corollary}[theorem]{Corollary}
-\crefname{corollary}{corollary}{corollaries}
-\Crefname{corollary}{Corollary}{Corollaries}
+%\crefname{corollary}{corollary}{corollaries}
+%\Crefname{corollary}{Corollary}{Corollaries}
 
-%\theoremstyle{remark}
+\theoremstyle{remark}
 \theoremstyle{definition}
 \newtheorem{remark}[theorem]{Remark}
 \AtEndEnvironment{remark}{\hfill\ensuremath{\diamondsuit}}
-\crefname{remark}{remark}{remarks}
-\Crefname{remark}{Remark}{Remarks}
-
-\theoremstyle{definition}
-\newtheorem{defn}[theorem]{Definition}
-\crefname{defn}{definition}{definitions}
-\Crefname{defn}{Definition}{Definitions}
+%\crefname{remark}{remark}{remarks}
+%\Crefname{remark}{Remark}{Remarks}
+%
+%\theoremstyle{definition}
+%\newtheorem{defn}[theorem]{Definition}
+%\crefname{defn}{definition}{definitions}
+%\Crefname{defn}{Definition}{Definitions}
 
 \newtheorem{example}[theorem]{Example}
 \AtEndEnvironment{example}{\hfill\ensuremath{\bigcirc}}
-\crefname{example}{example}{example}
-\Crefname{example}{Example}{Examples}
+%\crefname{example}{example}{example}
+%\Crefname{example}{Example}{Examples}
 
 % End theorem definitions
 
@@ -130,7 +131,7 @@
 % Full model
 \def\dimFOM{N}
 
-\newcommand{\e}[1]{\mathrm{e}^{#1}}
+%\newcommand{\e}[1]{\mathrm{e}^{#1}}
 \newcommand{\goyal}{GR}
 
 
@@ -211,21 +212,17 @@
 \newcommand{\cbfG}{\mbox{${\EuScript{G}}$} }
 \newcommand{\cbfV}{\mbox{${\EuScript{V}}$} }
 
-\biboptions{numbers,sort&compress}
+%\biboptions{numbers,sort&compress}
 
 \begin{document}
 
 \begin{frontmatter}
-\title{ {$\ch_2(\tf)$ Optimality Conditions for a Finite-time Horizon\tnoteref{mytitlenote}}}
-\author{Klajdi Sinani$^*$}
-\ead{klajdi@vt.edu}
-\cortext[cor1]{Corresponding author}
+\title{ {$\ch_2(\tf)$ Optimality Conditions for a Finite-time Horizon\thanksref{mytitlenote}} }
+\author{Klajdi Sinani\thanksref{cor}} \ead{klajdi@vt.edu},
+\author{Serkan~Gugercin} \ead{gugercin@vt.edu}
 
-\author{Serkan~Gugercin}
-\ead{gugercin@vt.edu}
-
-\tnotetext[mytitlenote]{This work was funded by the U.S. National Science Foundation under grants DMS-1522616 and  DMS-1720257.}
-
+\thanks[mytitlenote]{This work was funded by the U.S. National Science Foundation under grants DMS-1522616 and  DMS-1720257.}
+\thanks[cor]{Corresponding author }
 \address{Department of Mathematics, Virginia Polytechnic Institute and State University, Blacksburg, VA 24061, USA}
 
 \begin{abstract} 
@@ -249,25 +246,24 @@ Consider the linear time-invariant dynamical system:
 \dot{\x}(t) & =& \A\x(t) +\B\uu(t)\\
 \y(t)&=&\C\x(t) 
 \end{array}
-~~\mbox{with}~~ \x(0) = \mathbf{0},
-\quad \Longleftrightarrow \quad
+%~~\mbox{with}~~ \x(0) = \mathbf{0},
+\; \Leftrightarrow \;
 \y(t)=\int_{0}^{t}\h (t-\tau)\uu(\tau) d\tau,
 \end{equation}
 \noindent
-where $\A \in \R^{n\times n}$, $\B\in \R^{n\times m}$, and $\C\in \R^{p\times n}$ are constant matrices; 
+where $  \x(0) = \mathbf{0}, \A \in \R^{n\times n}$, $\B\in \R^{n\times m}$, and $\C\in \R^{p\times n}$ are constant matrices; 
 the variable $\x(t)\in \R^n$ denotes the internal variables, $\uu(t)\in \R^m$ denotes the control inputs, and $\y(t)\in \R^p$ denotes the outputs; and $\h(t)=\C e^{\A t}\B$ is the impulse response of the full model.   The length of the internal variable $\x(t)$, i.e., $n$, is called the order of the full model that we would like to reduce.  Model
 reduction achieves this by replacing the original model with a lower dimensional one:
-
 \begin{equation}  \label{rom1}
 \begin{array}{rcl}
 \dot{\x}_r(t) & =& \A_r\x_r(t) +\B_r\uu(t)\\
 \y_r(t)&=&\C_r\x_r(t) 
 \end{array}
-~~\mbox{with}~~ \x_r(0) = \mathbf{0},
-\quad \Longleftrightarrow \quad
+%~~\mbox{with}~~ \x_r(0) = \mathbf{0},
+\; \Leftrightarrow \;
 \y_r(t)=\int_{0}^{t}\h_r (t-\tau)\uu(\tau) d\tau,
 \end{equation}
-where as in \eqref{fom1}, $\h_r(t)=\C_r e^{\A_r t}\B_r$ is the impulse response of the reduced model, and $\A_r \in \R^{r\times r}$, $\B_r\in \R^{r\times m}$, and $\C_r\in \R^{p\times r}$ with $r\ll n$. The goal is that the output of the reduced model, $\y_r(t)$, approximates the true output, $\y(t)$, of the original system accurately in an appropriate norm. 
+where as in \eqref{fom1}, $\x_r(0) = \mathbf{0}, \h_r(t)=\C_r e^{\A_r t}\B_r$ is the impulse response of the reduced model, and $\A_r \in \R^{r\times r}$, $\B_r\in \R^{r\times m}$, and $\C_r\in \R^{p\times r}$ with $r\ll n$. The goal is that the output of the reduced model, $\y_r(t)$, approximates the true output, $\y(t)$, of the original system accurately in an appropriate norm. 
 
 For the linear dynamical systems we consider here, a plethora of methods exists
 for producing high-fidelity/optimal reduced models, such as  balanced truncation \cite{MulR76, Moo81} and its variants, optimal Hankel norm approximation \cite{Glo84}, and the Iterative Rational Krylov Algorithm (IRKA) \cite{GugBA08} and its variants; see \cite{Ant05,BauBF14} for further references.
@@ -295,7 +291,7 @@ The rest of the paper is organized as follows: In Section  \ref{sec:intro} we br
 
 %Error Measures
 \section{$\ch_2$-Optimal Model Reduction: The Infinite Horizon Case} \label{sec:intro}
-Model reduction with respect to the $\ch_2$ norm in the infinite horizon case has been studied extensively; see, for examples, \cite{BarCO91, BryC90, FulO90, MeiL67, Hal92, HylB85, SpaMM92, YanL99, LepMPV91, GugBA08,AniBGA13,Wil70,vuillemin2014poles,CasL18,panzer2013,gerstner2007hom,VanGA08, breiten2013near} and the references therein. 
+Model reduction with respect to the $\ch_2$ norm in the infinite horizon case has been studied extensively; see, for examples, \cite{BarCO91, BryC90 , FulO90, MeiL67, Hal92, HylB85, SpaMM92, YanL99, LepMPV91, GugBA08,AniBGA13,Wil70, vuillemin2014poles,CasL18, panzer2013, gerstner2007hom, VanGA08, breiten2013near} and the references therein. 
 In this section, we briefly recall these results as they will help to highlight the similarities to and differences from the finite-horizon case that we are interested in.
 \subsection{$\ch_2$ Norm and $\ch_2$ Error Measure}
 The error analysis for model reduction of linear dynamical systems can be conducted either in the frequency domain or in the time domain. Therefore, we define the $\ch_2$ norm in each domain. 
@@ -427,7 +423,7 @@ and
 \norm{\h_r}_{\ch_2({\tf})}^2= \sum_{i=1}^r\sum_{j=1}^r\lc_{i}^T\lc_{j}\rc_{j}^T\rc_{i}\dfrac{e^{(\lambda_i+\lambda_j){\tf}}-1}{\lambda_i+\lambda_j}.
 \end{align}
 \end{Lemma}
-\begin{proof}
+\begin{pf}
 The both results  follow from the definition of the $\ch_2(\tf)$ inner product.  First consider
 \begin{align*}
 \langle\h, \h_r\rangle_{\ch_2({\tf})}&=\mathsf{Tr}\left(\int_0^{\tf}\h_r(t)^T\h(t)\, dt\right).
@@ -445,7 +441,7 @@ Computing the integral and using the fact that $\mathsf{Tr}(\A_1 \A_2) = \mathsf
 =\sum_{j=1}^n\sum_{i=1}^r\lc_{i}^T\cc_j\bb_j^T\rc_{i}\dfrac{e^{(\lambda_i+\rho_j){\tf}}-1}{\lambda_i+\rho_j},
 \end{align*}
 which proves \eqref{eqn:hhr}. Then, \eqref{eqn:hrhr} follows directly by replacing $\h(t)$ with $\h_r(t)$ in this derivation. 
-\end{proof}
+\end{pf}
 For infinite time horizon, Theorem \ref{h2thm} tells us that a locally $\ch_2$ optimal reduced transfer function is a tangential Hermite interpolant of the original transfer function at the mirror images of the reduced poles. We will show that in the finite horizon case, even though Hermite tangential interpolation is still the necessary conditions for optimality,  what is being interpolated and what the interpolant is are different.
 
 \begin{theorem}\label{mh2opt}
@@ -493,7 +489,7 @@ Let $\G(s)$ and $\G_r(s)$ be as defined in \eqref{eqn:defG} and \eqref{eqn:defGr
  \G_r'(-\lambda_k)& =-\sum_{j=1}^n\lc_j\rc_j^T\dfrac {{\tf} (\lambda_k+\lambda_j)e^{(\lambda_k+\lambda_i){\tf}}+e^{(\lambda_k+\lambda_i){\tf}}+1}{(\lambda_k+\lambda_j)^2}. \label{eqn:Grpatlk} 
 \end{align}
 \end{Lemma}
-\begin{proof}
+\begin{pf}
 Recall the definition of $\G(s) = -e^{-s\tf}\C(s\I-\A)^{-1}e^{\A \tf}\B+\HH(s)$. Note that we assume that the eigenvalues of $\A$ are simple. Therefore, $e^{\A \tf}$ is also diagonalizable by the eigenvectors of $\A$. Using this fact and the pole-zero residue decomposition of   $\HH(s) = \C(s\I-\A)^{-1} \B = \sum_{j=1}^n \frac{\cc_j \bb_j^T}{s-\rho_j}$, we obtain 
 \begin{align}
 \G(s) &= -e^{-s\tf}\C(s\I-\A)^{-1}e^{\A \tf}\B+\HH(s)  \nonumber \\ 
@@ -511,7 +507,7 @@ which proves \eqref{eqn:Gatlk}. To prove \eqref{eqn:Gpatlk}, we first differenti
  \end{align*}
  Plugging in $s= -\lambda_k$ in this last expression yields the desired result \eqref{eqn:Gpatlk}. The proofs of
  \eqref{eqn:Gpatlk} and \eqref{eqn:Grpatlk} follow analogously. 
-\end{proof}
+\end{pf}
 
 
 %%%Start proof here
@@ -570,25 +566,11 @@ Lemma \eqref{mgexp}, specifically \eqref{eqn:Gpatlk} and \eqref{eqn:Grpatlk}, sh
 which completes the proof.
 \begin{flushright} $\Box$  \end{flushright}
 {\color{red} We note that the interval of interest is problem dependent and the choice of the interval i.e. the choice of $t_f$ may depend on the model, however, these optimality conditions hold for any choice of $t_f>0$.}
-\begin{remark}
-{\color{red} In the infinite-horizon case, if $\HH_r(s)$ is the best $\ch_2$ approximation to $\HH(s)$, then $\HH_r(s)$ interpolates $\HH(s)$. However, in the finite-horizon case, 
-the interpolant is $\G_r(s)$, which is a function of $\HH_r(s)$, and the interpolated function is $\G(s)$, which is a function of $\HH(s)$; thus $\HH_r(s)$ does not interpolate $\HH(s)$ in this case. However, the optimal interpolation points  and directions are still determined by the reduced model $\HH_r(s)$. The algorithmic implications of this result will be revisited in Section \ref{sec:discuss}.}
-\end{remark}
 
-%Proposition 
-{\color{red}
-The following proposition sheds some light on the physical interpretation of 
-\begin{Proposition}
-Let  $\G(s)=-e^{-s{\tf}}\C(s\I-\A)^{-1}e^{\A {\tf}}\B+\HH(s)$ where $\HH(s)=\C(s\I-\A)^{-1}\B$  is the transfer function of \eqref{fom1}. Then, $\norm{\G}_{\ch_2({\tf})}=\norm{\HH}_{\ch_2({\tf})}$
-\end{Proposition}
-\begin{proof}
-Note 
-\begin{align*}
-\G(s)&=-e^{-s{\tf}}\C(s\I-\A)^{-1}e^{\A {\tf}}\B+\HH(s)\\
-&=-e^{-s{\tf}}\sum_{i=1}^n \dfrac{\phi_i e^{\lambda_i {\tf}}}{s-\lambda_i}+\HH(s)
-\end{align*}
-where $\lambda_i$-s and $\phi_i$-s are the poles and the residues of the system, respectively. 
-Consider the inverse Laplace transform of $\G(s)$:
+%Remark
+\begin{remark}
+{\color{red} In the infinite-horizon case, if  $\HH_r(s)$ is the best $\ch_2$ approximation to $\HH(s)$, then $\HH_r(s)$ interpolates $\HH(s)$. However, in the finite-horizon case, 
+the interpolant is $\G_r(s)$, which is a function of $\HH_r(s)$, and the interpolated function is $\G(s)$, which is a function of $\HH(s)$; thus $\HH_r(s)$ does not interpolate $\HH(s)$. The interpolation of $\G(s)$ guarantees that we are approximating the model on the finite horizon. For instance, consider the inverse Laplace transform of $\G(s)$:
 \begin{align*}
 \mathcal{L}^{-1}\{\G(s)\}&=\h(t)+\sum_{i=1}^n u_{\tf}(t)\phi_i e^{\lambda_i {\tf}}e^{\lambda_i (t-{\tf})}\\
 &=\h(t)+\sum_{i=1}^n u_{\tf}(t)\phi_i e^{\lambda_i t}
@@ -601,16 +583,53 @@ u_{\tf}(t)=
       0 &    t > {\tf} 
    \end{cases}.
 \end{align*}
-Thus, 
-\begin{align*}
-\norm{\G}_{\ch_2({\tf})}&=\int_0^{\tf}\h(t)+\sum_{i=1}^n u_{\tf}(t)\phi_i e^{\lambda_i t} dt\\
-&=\int_0^{\tf}\h(t)dt\\
-&=\norm{\HH}_{\ch_2({\tf})}
-\end{align*}
-\end{proof}
-This proposition and its proof suggest that we are matching the models up to $t_f$. For $t>t_f$, we treat the model as insignificant, and the impulse response vanishes after $t_f$.
-}
+In other words, if we were to use an $\ch_2$ optimal algorithm on $\G(s)$, we would be approximating a finite horizon model by an infinite horizon one. For this reason, the interpolation of $\G(s)$ by $\G_r(s)$ is necessary. 
+However, the optimal interpolation points  and directions are still determined by the reduced model $\HH_r(s)$. The algorithmic implications of this result will be revisited in Section \ref{sec:discuss}.}
+\end{remark}
 
+%%remark
+%\begin{remark}
+%{\color{red} In the infinite-horizon case, if $\HH_r(s)$ is the best $\ch_2$ approximation to $\HH(s)$, then $\HH_r(s)$ interpolates $\HH(s)$. However, in the finite-horizon case, 
+%the interpolant is $\G_r(s)$, which is a function of $\HH_r(s)$, and the interpolated function is $\G(s)$, which is a function of $\HH(s)$; thus $\HH_r(s)$ does not interpolate $\HH(s)$ in this case. However, the optimal interpolation points  and directions are still determined by the reduced model $\HH_r(s)$. The algorithmic implications of this result will be revisited in Section \ref{sec:discuss}.}
+%\end{remark}
+%
+%
+%%Proposition 
+%{\color{red}
+%The following proposition sheds some light on the physical interpretation of 
+%\begin{Proposition}
+%Let  $\G(s)=-e^{-s{\tf}}\C(s\I-\A)^{-1}e^{\A {\tf}}\B+\HH(s)$ where $\HH(s)=\C(s\I-\A)^{-1}\B$  is the transfer function of \eqref{fom1}. Then, $\norm{\G}_{\ch_2({\tf})}=\norm{\HH}_{\ch_2({\tf})}$
+%\end{Proposition}
+%\begin{pf}
+%Note 
+%\begin{align*}
+%\G(s)&=-e^{-s{\tf}}\C(s\I-\A)^{-1}e^{\A {\tf}}\B+\HH(s)\\
+%&=-e^{-s{\tf}}\sum_{i=1}^n \dfrac{\phi_i e^{\lambda_i {\tf}}}{s-\lambda_i}+\HH(s)
+%\end{align*}
+%where $\lambda_i$-s and $\phi_i$-s are the poles and the residues of the system, respectively. 
+%Consider the inverse Laplace transform of $\G(s)$:
+%\begin{align*}
+%\mathcal{L}^{-1}\{\G(s)\}&=\h(t)+\sum_{i=1}^n u_{\tf}(t)\phi_i e^{\lambda_i {\tf}}e^{\lambda_i (t-{\tf})}\\
+%&=\h(t)+\sum_{i=1}^n u_{\tf}(t)\phi_i e^{\lambda_i t}
+%\end{align*}
+%where $u_{\tf}(t)$ is the unit step function
+%\begin{align*}
+%u_{\tf}(t)=
+% \begin{cases} 
+%      1 &    t\leq {\tf} \\    
+%      0 &    t > {\tf} 
+%   \end{cases}.
+%\end{align*}
+%Thus, 
+%\begin{align*}
+%\norm{\G}_{\ch_2({\tf})}&=\int_0^{\tf}\h(t)+\sum_{i=1}^n u_{\tf}(t)\phi_i e^{\lambda_i t} dt\\
+%&=\int_0^{\tf}\h(t)dt\\
+%&=\norm{\HH}_{\ch_2({\tf})}
+%\end{align*}
+%\end{pf}
+%This proposition and its proof suggest that we are matching the models up to $t_f$. For $t>t_f$, we treat the model as insignificant, and the impulse response vanishes after $t_f$.
+%}
+%
 
 
 \subsection{Implication of the interpolatory $\ch_2({\tf})$ optimality conditions}
@@ -683,14 +702,14 @@ $$
 \M_{i,j}=\dfrac{e^{(\lambda_i+\lambda_j){\tf}}-1}{\lambda_i+\lambda_j}, \quad \mbox{for}\quad
 i,j=1,2,\ldots,r.$$
 \end{corollary}
-\begin{proof}
+\begin{pf}
 Using the SISO counterparts for \eqref{eqn:hrhr} and \eqref{eqn:hhr} and applying some algebraic manipulation, the cost functional $\J$ can be written as
 \begin{align*}
 \J&= \norm{\h}_{\ch_2(t_f)}^2  - 2\bfphi^{T}\mathbf{w} + \bfphi^{T}\M\bfphi,
 \end{align*}
 where $\mathbf{w} \in \CC^{r\times 1}$ has the entries $\mathbf{w}_i=\sum_{k=1}^n \psi_k \dfrac{e^{(\rho_k+\lambda_i){\tf}}-1}{\lambda_i+\rho_k}$ for $i=1,2,\ldots,r$. Note that 
 $\M$ is positive definite, $\phi^{T}\M\phi=\norm{\h_r}_{\ch_2({\tf})}^2 > 0$, and the cost function is quadratic in $\bfphi$. Thus the (global) minimizer is  obtained by solving $\M \bfphi= \mathbf{z}$, which corresponds to rewriting  $\G(-\lambda_k)=\G_r(-\lambda_k)$ for $k = 1,2,\ldots, r$ in a compact way. 
-\end{proof}
+\end{pf}
 The result is analogous to the regular infinite-horizon $\ch_2$ problem where the Lagrange optimality becomes necessary and sufficient once the poles are fixed \cite{gaier1987lectures,beattie2012realization}. What is important here is that once the reduced poles are fixed, the best residues can be computed directly by solving an $r\times r$ linear system $\M \bfphi= \mathbf{z}$.  This is the property that we will exploit in the numerical scheme next.
 
 
@@ -754,7 +773,8 @@ We  established interpolatory $\ch_2({\tf})$-optimality conditions for model red
 As in the regular $\ch_2$-problem, establishing equivalency between the Sylvester-equation based $\ch_2(t_f)$-optimality conditions of \cite{GoyR17} and the interpolation-based conditions we developed here will be an interesting direction to pursue. Furthermore, extensions to bilinear and quadratic-bilinear problems will be crucial. 
 
 %\section*{References}
-\bibliographystyle{elsarticle-num}
+%\bibliographystyle{elsarticle-num}
+\bibliographystyle{plain}
 
 \bibliography{bibliography}
 \end{document}

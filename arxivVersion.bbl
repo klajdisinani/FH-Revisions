@@ -1,0 +1,183 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{MulR76}
+C.~T. Mullis, R.~Roberts, et~al., Synthesis of minimum roundoff noise fixed
+  point digital filters, Circuits and Systems, IEEE Transactions on 23~(9)
+  (1976) 551--562.
+
+\bibitem{Moo81}
+B.~Moore, Principal component analysis in linear systems: Controllability,
+  observability, and model reduction, IEEE Transactions on Automatic Control
+  26~(1) (1981) 17--32.
+
+\bibitem{Glo84}
+K.~Glover, All optimal hankel-norm approximations of linear multivariable
+  systems and their $l^{\infty}$-error bounds, Internat. J. Control 39(6)
+  (1984) 1115--1193.
+
+\bibitem{GugBA08}
+S.~Gugercin, C.~Beattie, A.~C. Antoulas, $\mathcal{H}_2$ model reduction for
+  large-scale linear dynamical systems, Siam J. Matrix Anal. Appl. 30(2) (2008)
+  609--638.
+
+\bibitem{Ant05}
+A.~C. Antoulas, Approximation of large-scale dynamical systems (Advances in
+  Design and Control), Society for Industrial and Applied Mathematics,
+  Philadelphia, PA, USA, 2005.
+
+\bibitem{BauBF14}
+U.~Baur, P.~Benner, L.~Feng, Model order reduction for linear and nonlinear
+  systems: a system-theoretic perspective, Archives of Computational Methods in
+  Engineering 21~(4) (2014) 331--358.
+
+\bibitem{GawJ90}
+W.~Gawronski, J.-N. Juang, Model reduction in limited time and frequency
+  intervals, International journal of systems science 21~(2) (1990) 349--376.
+
+\bibitem{GugA03}
+S.~Gugercin, A.~C. Antoulas, A time-limited balanced reduction method, in:
+  Proceedings of the 42nd IEEE Conference on Decision and Control, IEEE, 2003.
+
+\bibitem{RedK17}
+M.~Redmann, P.~K\"urschner, An $\mathcal{H}_2$-type error bound for
+  time-limited balanced truncation (2017).
+\newblock \href {http://arxiv.org/abs/1710.07572v1}
+  {\path{arXiv:1710.07572v1}}.
+
+\bibitem{Kur17}
+P.~K\"urschner, Balanced truncation model order reduction in limited time
+  intervals for large systems, Advances in Computational Mathematics (2018).
+\newblock \href {http://dx.doi.org/10.1007/s10444-018-9608-6}
+  {\path{doi:10.1007/s10444-018-9608-6}}.
+
+\bibitem{HolLB96}
+P.~Holmes, J.~L. Lumley, G.~Berkooz, Turbulence, coherent structures, dynamical
+  systems and symmetry (Cambridge Monographs on Mechanics), Cambridge
+  University Press, Cambridge, UK, 1996.
+
+\bibitem{BarCO91}
+L.~Baratchart, M.~Cardelli, M.~Olivi, Identification and rational $\ell_2$
+  approximation: A gradient algorithm, Automat. 27 (1991) 413--418.
+
+\bibitem{BryC90}
+A.~E. Bryson, A.~Carrier, Second-order algorithm for optimal model order
+  reduction, J. Guidance Control Dynam. 13 (1990) 887--892.
+
+\bibitem{FulO90}
+P.~Fulcheri, M.~Olivi, Matrix rational $\mathcal{H}_2$ approximation: A
+  gradient algorithm based on schur analysis, SIAM J. Control Optim. 36 (1998)
+  2103--2127.
+
+\bibitem{MeiL67}
+L.~Meier, D.~Luenberger, Approximation of linear constant systems, IEE. Trans.
+  Automat. Contr. 12 (1967) 585--588.
+
+\bibitem{Hal92}
+Y.~Halevi, Frequency weighted model reduction via optimal projection, IEEE
+  Transactions on automatic control 37~(10) (1992) 1537--1542.
+
+\bibitem{HylB85}
+D.~Hyland, D.~Bernstein, The optimal projection equations for model reduction
+  and the relationships among the methods of wilson, skelton, and moore, IEEE
+  Trans. Automat. Control,. 30 (1985) 1201--1211.
+
+\bibitem{SpaMM92}
+J.~Spanos, M.~Milman, D.~Mingori, A new algorithm for $\mathcal{L}_2$ optimal
+  model reduction, Automat. 28 (1992) 897--909.
+
+\bibitem{YanL99}
+W.~Y. Yan, J.~Lam, An approximate approach to $\mathcal{H}_2$ optimal model
+  reduction, IEEE Trans. Automat. Control 44 (1999) 1341--1358.
+
+\bibitem{LepMPV91}
+A.~Lepschy, G.~Mian, G.~Pinato, U.~Viaro, Rational $l_2$ approximation: A
+  nongradient algorithm, Proceedings of the 30th IEEE Conference on Decision
+  and Control (1991) 2321--2323.
+
+\bibitem{AniBGA13}
+B.~Ani\`{c}, C.~Beattie, S.~Gugercin, A.~C. Antoulas, Interpolatory
+  weighted-$\mathcal{H}_2$ model reduction, Automatica 49 (2013) 1275--1280.
+
+\bibitem{Wil70}
+D.~A. Wilson, Optimum solution of model-reduction problem, Proceedings of the
+  Institution of Electrical Engineers 117~(6) (1970) 1161--1165.
+
+\bibitem{vuillemin2014poles}
+P.~Vuillemin, C.~Poussot-Vassal, D.~Alazard, Poles residues descent algorithm
+  for optimal frequency-limited $\mathcal{H}_2$ model approximation, in:
+  Control Conference (ECC), 2014 European, IEEE, 2014, pp. 1080--1085.
+
+\bibitem{CasL18}
+A.~Castagnotto, B.~Lohmann, A new framework for $h_2$-optimal model reduction,
+  Mathematical and Computer Modelling of Dynamical Systems (2018) 1--22.
+
+\bibitem{panzer2013}
+H.~Panzer, S.~Jaensch, T.~Wolf, B.~Lohmann, A greedy rational {K}rylov method
+  for $\ch_2$-pseudooptimal model order reduction with preservation of
+  stability, in: American Control Conference (ACC), 2013, 2013, pp. 5512--5517.
+
+\bibitem{gerstner2007hom}
+A.~Bunse-Gerstner, D.~Kubali{\'n}ska, G.~Vossen, D.~Wilczek,
+  $\mathcal{H}_2$-optimal model reduction for large scale discrete dynamical
+  mimo systems, Journal of Computational and Applied Mathematics 233~(5) (2010)
+  1202--1216.
+
+\bibitem{VanGA08}
+P.~van Dooren, K.~Gallivan, P.~Absil, $\mathcal{H}_2$-optimal model reduction
+  of mimo systems, Applied Mathematics Letters 21(12) (2008) 1267--1273.
+
+\bibitem{breiten2013near}
+T.~Breiten, C.~Beattie, S.~Gugercin, Near-optimal frequency-weighted
+  interpolatory model reduction, Systems \& Control Letters 78 (2015) 8--18.
+
+\bibitem{AntBG10b}
+A.~Antoulas, C.~Beattie, S.~Gugercin, Interpolatory model reduction of
+  large-scale dynamical systems, in: J.~Mohammadpour, K.~Grigoriadis (Eds.),
+  Efficient Modeling and Control of Large-Scale Systems, Springer-Verlag, 2010.
+
+\bibitem{beattie2012realization}
+C.~Beattie, S.~Gugercin, Realization-independent $\mathcal{H}_2$-approximation,
+  in: Proceedings of 51st IEEE Conference on Decision and Control, 2012, pp.
+  4953 -- 4958.
+
+\bibitem{beattie2009trust}
+C.~A. Beattie, S.~Gugercin, A trust region method for optimal $\mathcal{H}_2$
+  model reduction, in: Decision and Control, 2009 held jointly with the 2009
+  28th Chinese Control Conference. CDC/CCC 2009. Proceedings of the 48th IEEE
+  Conference on, IEEE, 2009, pp. 5370--5375.
+
+\bibitem{magruder2010rational}
+C.~Magruder, C.~Beattie, S.~Gugercin, Rational krylov methods for optimal
+  $\mathcal{L}_2$ model reduction, in: Decision and Control (CDC), 2010 49th
+  IEEE Conference on, IEEE, 2010, pp. 6797--6802.
+
+\bibitem{GoyR17}
+P.~Goyal, M.~Redmann, Towards time-limited $\mathcal{H}_2$-optimal model order
+  reduction (2017).
+\newblock \href {http://arxiv.org/abs/1712.00301v1}
+  {\path{arXiv:1712.00301v1}}.
+
+\bibitem{MelVG14}
+S.~A. Melchior, P.~Van~Dooren, K.~A. Gallivan, Model reduction of linear
+  time-varying systems over finite horizons, Applied Numerical Mathematics 77
+  (2014) 72--81.
+
+\bibitem{gaier1987lectures}
+D.~Gaier, Lectures on Complex Approximation, Birkhauser, Cambridge, MA, 1987.
+
+\bibitem{Niconet}
+Y.~Chahlaoui, P.~V. Dooren, A collection of benchmark examples for model
+  reduction of linear time invariant dynamical systems, Tech. rep., SLICOT
+  Working Note 2002-2 (2002).
+
+\bibitem{gugercin2001approximation}
+S.~Gugercin, A.~Antoulas, N.~Bedrossian, Approximation of the international
+  space station 1r and 12a models, in: Decision and Control, 2001. Proceedings
+  of the 40th IEEE Conference on, Vol.~2, IEEE, 2001, pp. 1515--1516.
+
+\end{thebibliography}
