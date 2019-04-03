@@ -2,66 +2,56 @@ This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: FH Optimality Conditions Paper.aux
 White space in argument---line 19 of file FH Optimality Conditions Paper.aux
- : \citation{MulR76,
- :                   Moo81}
-I'm skipping whatever remains of this command
-White space in argument---line 23 of file FH Optimality Conditions Paper.aux
- : \citation{GawJ90,
- :                   GugA03, RedK17, Kur17}
-I'm skipping whatever remains of this command
-White space in argument---line 36 of file FH Optimality Conditions Paper.aux
- : \citation{BarCO91,BryC90,
- :                           FulO90, MeiL67, Hal92, HylB85, SpaMM92, YanL99, LepMPV91, GugBA08,AniBGA13,Wil70, vuillemin2014poles,CasL18, panzer2013, gerstner2007hom, VanGA08, breiten2013near}
-I'm skipping whatever remains of this command
-White space in argument---line 48 of file FH Optimality Conditions Paper.aux
- : \citation{MeiL67,
- :                   GugBA08}
-I'm skipping whatever remains of this command
-White space in argument---line 50 of file FH Optimality Conditions Paper.aux
- : \citation{MeiL67,
- :                   GugBA08}
+ : \citation{Steve
+ :                 Cox}
 I'm skipping whatever remains of this command
 The style file: plain.bst
 Database file #1: bibliography.bib
-You've used 26 entries,
+You're missing a field name---line 30 of file bibliography.bib
+ : 
+ : %doi = {10.1007/s10827-010-0309-5}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Sha03"
+You've used 38 entries,
             2118 wiz_defined-function locations,
-            683 strings with 8647 characters,
-and the built_in function-call counts, 8997 in all, are:
-= -- 909
-> -- 382
-< -- 6
-+ -- 154
-- -- 122
-* -- 590
-:= -- 1460
-add.period$ -- 81
-call.type$ -- 26
-change.case$ -- 135
+            768 strings with 10680 characters,
+and the built_in function-call counts, 13501 in all, are:
+= -- 1368
+> -- 565
+< -- 9
++ -- 229
+- -- 182
+* -- 900
+:= -- 2172
+add.period$ -- 118
+call.type$ -- 38
+change.case$ -- 201
 chr.to.int$ -- 0
-cite$ -- 26
-duplicate$ -- 348
-empty$ -- 735
-format.name$ -- 122
-if$ -- 1928
+cite$ -- 38
+duplicate$ -- 515
+empty$ -- 1097
+format.name$ -- 182
+if$ -- 2901
 int.to.chr$ -- 0
-int.to.str$ -- 26
-missing$ -- 26
-newline$ -- 131
-num.names$ -- 54
-pop$ -- 148
+int.to.str$ -- 38
+missing$ -- 37
+newline$ -- 191
+num.names$ -- 78
+pop$ -- 208
 preamble$ -- 1
-purify$ -- 111
+purify$ -- 165
 quote$ -- 0
-skip$ -- 255
+skip$ -- 387
 stack$ -- 0
-substring$ -- 633
-swap$ -- 82
-text.length$ -- 6
+substring$ -- 1009
+swap$ -- 129
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 98
+type$ -- 146
 warning$ -- 0
-while$ -- 88
-width$ -- 28
-write$ -- 286
-(There were 5 error messages)
+while$ -- 130
+width$ -- 40
+write$ -- 418
+(There were 2 error messages)

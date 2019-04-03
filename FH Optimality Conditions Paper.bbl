@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{AniBGA13}
+B.~Ani\`{c}, C.~Beattie, S.~Gugercin, and A.~C. Antoulas.
+\newblock Interpolatory weighted-$\mathcal{H}_2$ model reduction.
+\newblock {\em Automatica}, 49:1275--1280, 2013.
+
 \bibitem{Ant05}
 A.~C. Antoulas.
 \newblock {\em Approximation of large-scale dynamical systems (Advances in
@@ -69,6 +74,12 @@ Y.~Chahlaoui and P.~Van Dooren.
   invariant dynamical systems.
 \newblock Technical report, SLICOT Working Note 2002-2, 2002.
 
+\bibitem{FulO90}
+P.~Fulcheri and M.~Olivi.
+\newblock Matrix rational $\mathcal{H}_2$ approximation: A gradient algorithm
+  based on schur analysis.
+\newblock {\em SIAM J. Control Optim.}, 36:2103--2127, 1998.
+
 \bibitem{gaier1987lectures}
 D.~Gaier.
 \newblock {\em Lectures on Complex Approximation}.
@@ -108,6 +119,12 @@ Serkan Gugercin and Athanasios~C. Antoulas.
 \newblock In {\em Proceedings of the 42nd IEEE Conference on Decision and
   Control}. IEEE, 2003.
 
+\bibitem{Hal92}
+Y.~Halevi.
+\newblock Frequency weighted model reduction via optimal projection.
+\newblock {\em IEEE Transactions on automatic control}, 37(10):1537--1542,
+  1992.
+
 \bibitem{HolLB96}
 P.~Holmes, J.~L. Lumley, and G.~Berkooz.
 \newblock {\em Turbulence, coherent structures, dynamical systems and symmetry
@@ -119,6 +136,18 @@ D.C. Hyland and D.S. Bernstein.
 \newblock The optimal projection equations for model reduction and the
   relationships among the methods of wilson, skelton, and moore.
 \newblock {\em IEEE Trans. Automat. Control,.}, 30:1201--1211, 1985.
+
+\bibitem{Kur17}
+Patrick K\"urschner.
+\newblock Balanced truncation model order reduction in limited time intervals
+  for large systems.
+\newblock Advances in Computational Mathematics, 2018.
+
+\bibitem{LepMPV91}
+A.~Lepschy, G.A. Mian, G.~Pinato, and U.~Viaro.
+\newblock Rational $l_2$ approximation: A nongradient algorithm.
+\newblock {\em Proceedings of the 30th IEEE Conference on Decision and
+  Control}, pages 2321--2323, 1991.
 
 \bibitem{magruder2010rational}
 Caleb Magruder, Christopher Beattie, and Serkan Gugercin.
@@ -136,21 +165,62 @@ S.~A. Melchior, P.~Van~Dooren, and K.~A. Gallivan.
 \newblock Model reduction of linear time-varying systems over finite horizons.
 \newblock {\em Applied Numerical Mathematics}, 77:72--81, 2014.
 
+\bibitem{Moo81}
+B.~Moore.
+\newblock Principal component analysis in linear systems: Controllability,
+  observability, and model reduction.
+\newblock {\em IEEE Transactions on Automatic Control}, 26(1):17--32, 1981.
+
 \bibitem{MulR76}
 Clifford~T Mullis, Richard Roberts, et~al.
 \newblock Synthesis of minimum roundoff noise fixed point digital filters.
 \newblock {\em Circuits and Systems, IEEE Transactions on}, 23(9):551--562,
   1976.
 
+\bibitem{panzer2013}
+H.K.F. Panzer, S.~Jaensch, T.~Wolf, and B.~Lohmann.
+\newblock A greedy rational {K}rylov method for $\ch_2$-pseudooptimal model
+  order reduction with preservation of stability.
+\newblock In {\em American Control Conference (ACC), 2013}, pages 5512--5517,
+  2013.
+
 \bibitem{RedK17}
 Martin Redmann and Patrick K\"urschner.
 \newblock An $\mathcal{H}_2$-type error bound for time-limited balanced
   truncation, 2017.
+
+\bibitem{SpaMM92}
+J.T. Spanos, M.H. Milman, and D.L. Mingori.
+\newblock A new algorithm for $\mathcal{L}_2$ optimal model reduction.
+\newblock {\em Automat.}, 28:897--909, 1992.
+
+\bibitem{VanGA08}
+P.~van Dooren, K.A. Gallivan, and P.A. Absil.
+\newblock $\mathcal{H}_2$-optimal model reduction of mimo systems.
+\newblock {\em Applied Mathematics Letters}, 21(12):1267--1273, 2008.
+
+\bibitem{vuillemin2014poles}
+Pierre Vuillemin, Charles Poussot-Vassal, and Daniel Alazard.
+\newblock Poles residues descent algorithm for optimal frequency-limited
+  $\mathcal{H}_2$ model approximation.
+\newblock In {\em Control Conference (ECC), 2014 European}, pages 1080--1085.
+  IEEE, 2014.
 
 \bibitem{Wil70}
 D.~A. Wilson.
 \newblock Optimum solution of model-reduction problem.
 \newblock {\em Proceedings of the Institution of Electrical Engineers},
   117(6):1161--1165, 1970.
+
+\bibitem{BoyP11}
+Boyuan Yan and Peng Li.
+\newblock Reduced order modeling of passive and quasi-active dendrites for
+  nervous system simulation.
+\newblock {\em Journal of computational neuroscience}, 31:247--71, 10 2011.
+
+\bibitem{YanL99}
+W.~Y. Yan and J.~Lam.
+\newblock An approximate approach to $\mathcal{H}_2$ optimal model reduction.
+\newblock {\em IEEE Trans. Automat. Control}, 44:1341--1358, 1999.
 
 \end{thebibliography}

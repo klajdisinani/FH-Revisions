@@ -1,0 +1,214 @@
+\usepackage{graphics, euscript, float,blkarray, listings}
+\usepackage {graphicx}
+%\usepackage[top = 1 in, bottom = 1 in, right = 1 in, left = 1 in]{geometry}
+\usepackage{tabularx, booktabs, array, float, framed}
+\usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
+\usepackage{appendix, setspace}
+\usepackage{mathtools}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{mathtools,thmtools,etoolbox}
+\usepackage{algorithm,algorithmicx,algpseudocode}
+\usepackage{booktabs,subcaption}
+\usepackage{tikz,pgfplots}%\pgfplotsset{compat=1.14}
+\pgfplotsset{compat=newest}
+\usepackage{lineno}
+\usepackage{todonotes}
+\usepackage[colorlinks,citecolor=black]{hyperref}
+%\usepackage{cleveref}
+\usepackage[scientific-notation=true]{siunitx}
+\usepackage{multicol,cite}
+\usepackage[font={large}]{caption}
+\usepackage{subcaption}
+\usepackage{breqn}
+%\usepackage[nodisplayskipstretch]{setspace}
+%\setstretch{1.5}
+%\usepackage{natbib}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% `Elsevier LaTeX' style
+
+% Theorem definitions
+\newtheorem{theorem}{Theorem}[section]
+%\crefname{theorem}{theorem}{theorems}
+%\Crefname{theorem}{Theorem}{Theorems}
+
+%\newtheorem{prop}[theorem]{Proposition}
+%\crefname{prop}{proposition}{propositions}
+%\Crefname{prop}{Proposition}{Propositions}
+
+\newtheorem{lemma}[theorem]{Lemma}
+%\crefname{lemma}{lemma}{lemmas}
+%\Crefname{lemma}{Lemma}{Lemmas}
+
+\newtheorem{corollary}[theorem]{Corollary}
+%\crefname{corollary}{corollary}{corollaries}
+%\Crefname{corollary}{Corollary}{Corollaries}
+
+\theoremstyle{remark}
+\theoremstyle{definition}
+\newtheorem{remark}[theorem]{Remark}
+\AtEndEnvironment{remark}{\hfill\ensuremath{\diamondsuit}}
+%\crefname{remark}{remark}{remarks}
+%\Crefname{remark}{Remark}{Remarks}
+%
+%\theoremstyle{definition}
+%\newtheorem{defn}[theorem]{Definition}
+%\crefname{defn}{definition}{definitions}
+%\Crefname{defn}{Definition}{Definitions}
+
+\newtheorem{example}[theorem]{Example}
+\AtEndEnvironment{example}{\hfill\ensuremath{\bigcirc}}
+%\crefname{example}{example}{example}
+%\Crefname{example}{Example}{Examples}
+
+% End theorem definitions
+
+%% Some bold vectors
+\newcommand{\bfell}{{\boldsymbol{\ell}}}
+\newcommand{\bfphi}{{\boldsymbol{\phi}}}
+\newcommand{\bflambda}{{\boldsymbol{\lambda}}}
+\newcommand{\bfu}{{\boldsymbol{u}}}
+\newcommand{\bfb}{{\boldsymbol{b}}}
+\newcommand{\bfc}{{\boldsymbol{c}}}
+\newcommand{\bfp}{{\boldsymbol{p}}}
+\newcommand{\bfx}{{\boldsymbol{x}}}
+\newcommand{\bfy}{{\boldsymbol{y}}}
+\newcommand{\bfr}{{\boldsymbol{r}}}
+\newcommand{\bff}{{\boldsymbol{f}}}
+\newcommand{\bfe}{{\boldsymbol{e}}}
+\newcommand{\bfg}{{\boldsymbol{g}}}
+\newcommand{\bfv}{{\boldsymbol{v}}}
+\newcommand{\bfw}{{\boldsymbol{w}}}
+\newcommand{\bfV}{{\boldsymbol{V}}}
+\newcommand{\bfW}{{\boldsymbol{W}}}
+\newcommand{\bfF}{{\boldsymbol{F}}}
+\newcommand{\bfG}{{\boldsymbol{G}}}
+\newcommand{\bfpsi}{{\boldsymbol{\psi}}}
+\newcommand{\bfpi}{{\boldsymbol{\pi}}}
+\newcommand{\bfbeta}{{\boldsymbol{\beta}}}
+
+%% Makros for figure legends
+\newcommand{\original}{Original}
+\newcommand{\loewner}{Loewner}
+\newcommand{\additional}{Additional points}
+\newcommand{\hermite}{Hermite}
+
+%%%% Makros for the paper %%%%%%%%%
+\DeclareMathOperator{\rank}{rank}
+\DeclareMathOperator{\diag}{diag}
+\DeclareMathOperator{\spann}{span}
+\def\numData{n}
+\def\leftDir{{\boldsymbol{\ell}}}
+\def\LeftDir{\mathcal{L}}
+\def\leftPoint{\mu}
+\def\LeftPoint{\mathcal{M}}
+\def\leftData{{\boldsymbol{f}}}
+\def\LeftData{\mathcal{F}}
+\def\rightDir{{\boldsymbol{\it r}}}
+\def\RightDir{\mathcal{R}}
+\def\rightPoint{\sigma}
+\def\RightPoint{\mathcal{S}}
+\def\rightData{{\boldsymbol{g}}}
+\def\RightData{\mathcal{G}}
+\def\bitangentialData{\theta}
+% Realization and Reduced Matrices
+\def\numFunctions{K}
+\def\Hred{\smash{\widetilde{H}}}
+\def\Ered{\smash{\widetilde{E}}}
+\def\Ared {\smash{\widetilde{A}}}
+\def\Bred{\smash{\widetilde{B}}}
+\def\Cred{\smash{\widetilde{C}}}
+\def\Kred{\smash{\widetilde{\mathcal{K}}}}
+\def\xred{\widetilde{\boldsymbol{x}}}
+\def\yred{\widetilde{\boldsymbol{y}}}
+% Full model
+\def\dimFOM{N}
+
+%\newcommand{\e}[1]{\mathrm{e}^{#1}}
+\newcommand{\goyal}{GR}
+
+
+%%%% END Macros for the paper %%%%%%%%%
+
+
+
+
+\def\mathcal{\EuScript}
+
+\numberwithin{equation}{section}
+\newtheorem{Theorem}{Theorem}[section]
+\newtheorem{Lemma}[Theorem]{Lemma}
+\newtheorem{Definition}[Theorem]{Definition}
+\newtheorem{Proposition}[Theorem]{Proposition}
+\newcommand{\FH}{FHIRKA}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\bh}{\hat{B}}
+\newcommand{\hc}{\hat{C}}
+\newcommand{\CC}{\mathbb{C}}
+\newcommand{\x}{\mathbf{x}}
+\newcommand{\A}{\mathbf{A}}
+\newcommand{\bpi}{\mathbf{\Pi}}
+\newcommand{\Y}{\mathbf{Y}}
+\newcommand{\E}{\mathbf{E}}
+\newcommand{\B}{\mathbf{B}}
+\newcommand{\I}{\mathbf{I}}
+\newcommand{\G}{\mathbf{G}}
+\newcommand{\C}{\mathbf{C}}
+\newcommand{\D}{\mathbf{D}}
+\newcommand{\M}{\mathbf{M}}
+\newcommand{\X}{\mathbf{X}}
+\newcommand{\U}{\mathbf{U}}
+\newcommand{\K}{\mathbf{K}}
+\newcommand{\T}{\mathbf{T}}
+\newcommand{\y}{\mathbf{y}}
+\newcommand{\f}{\mathbf{f}}
+\newcommand{\uu}{\mathbf{u}}
+\newcommand{\HH}{\mathbf{H}}
+\newcommand{\PP}{\mathbf{P}}
+\newcommand{\Q}{\mathbf{Q}}
+\newcommand{\J}{\mathcal{J}}
+\newcommand{\h}{\mathbf{h}}
+\newcommand{\g}{\mathbf{g}}
+\newcommand{\V}{\mathbf{V}}
+\newcommand{\W}{\mathbf{W}}
+\newcommand{\tf}{t_f}
+\newcommand{\rr}{\mathbf{r}}
+\newcommand{\lb}{\mathbf{l}}
+\newcommand{\rc}{\boldsymbol{r}}
+\newcommand{\lc}{\boldsymbol{\ell}}
+\newcommand{\cc}{\boldsymbol{c}}
+\newcommand{\bb}{\boldsymbol{b}}
+\newcommand{\ch}{\mathcal{H}}
+\newcommand{\ca}{\mathcal{A}}
+\newcommand{\cp}{\mathcal{P}}
+\newcommand{\cl}{\mathcal{L}}
+\newcommand{\cu}{\mathcal{U}}
+\newcommand{\cq}{\mathcal{Q}}
+\newcommand{\co}{\mathcal{O}}
+\newcommand{\Si}{\mathbf{\Sigma}}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcolumntype{x}[1]{>{\centering\arraybackslash\hspace{0pt}}p{#1}}
+\newcommand{\pder}[2][]{\dfrac{\partial#1}{\partial#2}}
+\newcommand{\cbfF}{\mbox{\boldmath${\EuScript{F}}$} }
+\newcommand{\cbfH}{\mbox{\boldmath${\EuScript{H}}$} }
+\newcommand{\cbfK}{\mbox{\boldmath${\EuScript{K}}$} }
+\newcommand{\cbfBsm}{\mbox{{\scriptsize \boldmath${\EuScript{B}}$}}}
+\newcommand{\cbfCsm}{\mbox{{\scriptsize \boldmath${\EuScript{C}}$}}}
+\newcommand{\cbfD}{\mbox{\boldmath${\EuScript{D}}$}}
+\newcommand{\cbfDsm}{\mbox{{\scriptsize \boldmath${\EuScript{D}}$}}}
+\newcommand{\cbfW}{\mbox{\boldmath${\EuScript{W}}$} }
+\newcommand{\cbfZ}{\mbox{\boldmath${\EuScript{Z}}$} }
+\newcommand{\cbfI}{\mbox{${\EuScript{I}}$} }
+\newcommand{\cbfA}{\mbox{${\EuScript{A}}$} }
+\newcommand{\cbfB}{\mbox{${\EuScript{B}}$}}
+\newcommand{\cbfC}{\mbox{${\EuScript{C}}$}}
+\newcommand{\cbfG}{\mbox{${\EuScript{G}}$} }
+\newcommand{\cbfV}{\mbox{${\EuScript{V}}$} }
+\newcommand\scalemath[2]{\scalebox{#1}{\mbox{\ensuremath{\displaystyle #2}}}}
