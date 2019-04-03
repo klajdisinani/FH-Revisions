@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.23)  2 APR 2019 23:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.23)  3 APR 2019 00:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1819,20 +1819,20 @@ LaTeX Info: Redefining \genfrac on input line 145.
 (./FH Optimality Conditions Paper.aux)
 \openout1 = `"FH Optimality Conditions Paper.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1878,7 +1878,7 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.15}).
 Package hyperref Warning: Height of page (\paperheight) is invalid (0.0pt),
 (hyperref)                using 11in.
 
-Package hyperref Info: Link coloring ON on input line 11.
+Package hyperref Info: Link coloring ON on input line 15.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1887,9 +1887,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count406
 )
-LaTeX Info: Redefining \ref on input line 11.
-LaTeX Info: Redefining \pageref on input line 11.
-LaTeX Info: Redefining \nameref on input line 11.
+LaTeX Info: Redefining \ref on input line 15.
+LaTeX Info: Redefining \pageref on input line 15.
+LaTeX Info: Redefining \nameref on input line 15.
 
 (./FH Optimality Conditions Paper.out) (./FH Optimality Conditions Paper.out)
 \@outlinefile=\write4
@@ -1978,35 +1978,35 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2017/08/02 v2.7j siunitx: Abbreviated units
 )
 \c__siunitx_mathsf_int=\count407
-LaTeX Font Info:    Try loading font information for U+msa on input line 11.
+LaTeX Font Info:    Try loading font information for U+msa on input line 15.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 11.
+LaTeX Font Info:    Try loading font information for U+msb on input line 15.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count408
-LaTeX Font Info:    Try loading font information for U+eus on input line 14.
+LaTeX Font Info:    Try loading font information for U+eus on input line 18.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/ueus.fd
 File: ueus.fd 2013/01/14 v3.01 Euler Script
 )
 \c@sv@footnote=\count409
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 31.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 35.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 
-LaTeX Warning: Citation `Steve Cox' on page 1 undefined on input line 34.
+LaTeX Warning: Citation `Steve Cox' on page 1 undefined on input line 38.
 
 
-LaTeX Warning: Citation `Sha03' on page 1 undefined on input line 34.
+LaTeX Warning: Citation `Sha03' on page 1 undefined on input line 38.
 
 
-Overfull \hbox (12.44386pt too wide) detected at line 61
+Overfull \hbox (12.44386pt too wide) detected at line 65
 [][][][]  \OMS/cmsy/m/n/10 ,  \OT1/cmr/bx/n/10 y[]\OT1/cmr/m/n/10 (\OML/cmm/m/i
 t/10 t\OT1/cmr/m/n/10 ) = [][] \OT1/cmr/bx/n/10 h[]\OT1/cmr/m/n/10 (\OML/cmm/m/
 it/10 t \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ^^\\OT1/cmr/m/n/10 )\OT1/cmr/bx/n
@@ -2018,7 +2018,7 @@ it/10 t \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ^^\\OT1/cmr/m/n/10 )\OT1/cmr/bx/n
 Underfull \vbox (badness 2443) has occurred while \output is active []
 
 
-Underfull \hbox (badness 1721) in paragraph at lines 64--67
+Underfull \hbox (badness 1721) in paragraph at lines 68--71
 \T1/cmr/m/n/10 a plethora of meth-ods ex-ists for pro-duc-ing high-
  []
 
@@ -2029,38 +2029,38 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 76.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 80.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 76.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 89.
+(hyperref)                removing `math shift' on input line 93.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 89.
+(hyperref)                removing `math shift' on input line 93.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 94.
+(hyperref)                removing `math shift' on input line 98.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 94.
+(hyperref)                removing `math shift' on input line 98.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 94.
+(hyperref)                removing `math shift' on input line 98.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 94.
+(hyperref)                removing `math shift' on input line 98.
 
 Package hyperref Info: bookmark level for unknown Definition defaults to 0 on i
-nput line 97.
+nput line 101.
 
-Overfull \hbox (2.87032pt too wide) in paragraph at lines 116--117
+Overfull \hbox (2.87032pt too wide) in paragraph at lines 120--121
 []\T1/cmr/m/n/10 is called the trans-fer func-tion of []. Let $\OMS/cmsy/m/n/10
  f\OML/cmm/m/it/10 ^^Z[]; ^^Z[]; [] ; ^^Z[]\OMS/cmsy/m/n/10 g$
  []
@@ -2068,16 +2068,16 @@ Overfull \hbox (2.87032pt too wide) in paragraph at lines 116--117
 [2]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 148.
+(hyperref)                removing `math shift' on input line 152.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 148.
+(hyperref)                removing `math shift' on input line 152.
 
 Package hyperref Info: bookmark level for unknown theorem defaults to 0 on inpu
-t line 150.
+t line 154.
 
-Overfull \hbox (0.8747pt too wide) detected at line 154
+Overfull \hbox (0.8747pt too wide) detected at line 158
 \OT1/cmr/bx/n/10 h[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 ) = [] \
 OML/cmm/m/it/10 e[][][][][]  []  \OT1/cmr/bx/n/10 H[]\OT1/cmr/m/n/10 (\OML/cmm/
 m/it/10 s\OT1/cmr/m/n/10 ) = [] []
@@ -2085,61 +2085,59 @@ m/it/10 s\OT1/cmr/m/n/10 ) = [] []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 169.
+(hyperref)                removing `math shift' on input line 173.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 169.
+(hyperref)                removing `subscript' on input line 173.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 169.
+(hyperref)                removing `math shift' on input line 173.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 177.
+(hyperref)                removing `math shift' on input line 181.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 177.
+(hyperref)                removing `math shift' on input line 181.
 
 
-Underfull \hbox (badness 3849) in paragraph at lines 192--192
+Underfull \hbox (badness 3849) in paragraph at lines 196--196
 []\T1/cmr/m/it/10 Finite Hori-zon Interpolation-based Con-di-tions
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 192.
+(hyperref)                removing `math shift' on input line 196.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 192.
+(hyperref)                removing `subscript' on input line 196.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 192.
+(hyperref)                removing `math shift' on input line 196.
 
 
-Overfull \hbox (15.7145pt too wide) detected at line 214
-[][][][]
- []
+Underfull \vbox (badness 1454) has occurred while \output is active []
 
-[3]
+ [3]
 Package hyperref Info: bookmark level for unknown Lemma defaults to 0 on input 
-line 219.
+line 221.
 
-Overfull \hbox (4.8542pt too wide) detected at line 245
+Overfull \hbox (4.8542pt too wide) detected at line 247
 []
  []
 
 
-Underfull \hbox (badness 2680) in paragraph at lines 245--247
+Underfull \hbox (badness 2680) in paragraph at lines 247--249
 \T1/cmr/m/n/10 Computing the in-te-gral and us-ing the fact that
  []
 
 
-Overfull \hbox (0.25319pt too wide) in paragraph at lines 300--302
+Overfull \hbox (0.25319pt too wide) in paragraph at lines 302--304
 \T1/cmr/bx/n/10 PROOF.\T1/cmr/m/n/10 Recall the def-i-ni-tion of $\OT1/cmr/bx/n
 /10 G\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s\OT1/cmr/m/n/10 ) = \OMS/cmsy/m/n/10 ^^
 @\OML/cmm/m/it/10 e[]\OT1/cmr/bx/n/10 C\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s\OT1/
@@ -2147,7 +2145,7 @@ cmr/bx/n/10 I \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Underfull \hbox (badness 4108) in paragraph at lines 300--302
+Underfull \hbox (badness 4108) in paragraph at lines 302--304
 \T1/cmr/m/n/10 fact and the pole-zero residue de-com-po-si-tion of
  []
 
@@ -2155,7 +2153,7 @@ Underfull \hbox (badness 4108) in paragraph at lines 300--302
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
-Underfull \hbox (badness 1776) in paragraph at lines 307--311
+Underfull \hbox (badness 1776) in paragraph at lines 309--313
 \T1/cmr/m/n/10 Thus, $\OT1/cmr/bx/n/10 G\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\O
 ML/cmm/m/it/10 ^^U[]\OT1/cmr/m/n/10 ) = [][] [][][][][]$\T1/cmr/m/n/10 , which
  []
@@ -2164,43 +2162,39 @@ ML/cmm/m/it/10 ^^U[]\OT1/cmr/m/n/10 ) = [][] [][][][][]$\T1/cmr/m/n/10 , which
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
-Overfull \hbox (18.9308pt too wide) detected at line 356
-[]
- []
 
-
-LaTeX Warning: Command \k invalid in math mode on input line 363.
+LaTeX Warning: Command \k invalid in math mode on input line 365.
 
 Package hyperref Info: bookmark level for unknown remark defaults to 0 on input
- line 378.
+ line 380.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 441.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 441.
+(hyperref)                removing `math shift' on input line 443.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 441.
+(hyperref)                removing `subscript' on input line 443.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 443.
 
 [6]
-Overfull \hbox (2.79733pt too wide) in paragraph at lines 465--465
+Overfull \hbox (2.79733pt too wide) in paragraph at lines 467--467
 []\T1/cmr/m/it/10 A descent-type al-go-rithm for the single-input/single-
  []
 
 Package hyperref Info: bookmark level for unknown corollary defaults to 0 on in
-put line 476.
+put line 478.
 
-Underfull \hbox (badness 2050) in paragraph at lines 495--500
+Underfull \hbox (badness 2050) in paragraph at lines 497--502
 []\T1/cmr/m/it/10 , and $\OT1/cmr/bx/n/10 G\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s\
 OT1/cmr/m/n/10 )$ \T1/cmr/m/it/10 and $\OT1/cmr/bx/n/10 G[]\OT1/cmr/m/n/10 (\OM
 L/cmm/m/it/10 s\OT1/cmr/m/n/10 )$ \T1/cmr/m/it/10 as in []. As-sume
  []
 
 
-Overfull \hbox (4.93773pt too wide) detected at line 503
+Overfull \hbox (4.93773pt too wide) detected at line 505
 \OT1/cmr/bx/n/10 z[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 e[][][]\OT1/cmr/m/n/10 
 (\OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 ^^U[]\OT1/cmr/bx/n/10 I \OMS/cmsy/m/n/10 
 ^^@ \OT1/cmr/bx/n/10 A\OT1/cmr/m/n/10 )[]\OML/cmm/m/it/10 e[][] \OMS/cmsy/m/n/1
@@ -2213,7 +2207,7 @@ Overfull \hbox (4.93773pt too wide) detected at line 503
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-Underfull \hbox (badness 4556) in paragraph at lines 535--536
+Underfull \hbox (badness 4556) in paragraph at lines 537--538
 \T1/cmr/m/n/10 FHIRKA with Proper Or-thog-o-nal De-com-po-si-tion
  []
 
@@ -2225,16 +2219,16 @@ Package epstopdf Info: Source file: <allDataHeatF.eps>
 (epstopdf)                    size: 13962 bytes
 (epstopdf)             Command: <repstopdf --outfile=allDataHeatF-eps-converted
 -to.pdf allDataHeatF.eps>
-(epstopdf)             \includegraphics on input line 573.
+(epstopdf)             \includegraphics on input line 575.
 Package epstopdf Info: Output file is already uptodate.
 <allDataHeatF-eps-converted-to.pdf, id=177, pagebox=cropbox, 562.1pt x 421.575p
 t>
 File: allDataHeatF-eps-converted-to.pdf Graphic file (type pdf)
 <use allDataHeatF-eps-converted-to.pdf>
 Package pdftex.def Info: allDataHeatF-eps-converted-to.pdf  used on input line 
-573. on input line 573.
+575. on input line 575.
 Package pdftex.def Info: Requested size: 224.83601pt x 168.627pt on input line 
-573.
+575.
 Package epstopdf Info: Source file: <ErrorVSrISSF.eps>
 (epstopdf)                    date: 2018-06-11 13:34:45
 (epstopdf)                    size: 28045 bytes
@@ -2243,16 +2237,16 @@ Package epstopdf Info: Source file: <ErrorVSrISSF.eps>
 (epstopdf)                    size: 12535 bytes
 (epstopdf)             Command: <repstopdf --outfile=ErrorVSrISSF-eps-converted
 -to.pdf ErrorVSrISSF.eps>
-(epstopdf)             \includegraphics on input line 578.
+(epstopdf)             \includegraphics on input line 580.
 Package epstopdf Info: Output file is already uptodate.
 <ErrorVSrISSF-eps-converted-to.pdf, id=178, pagebox=cropbox, 562.1pt x 421.575p
 t>
 File: ErrorVSrISSF-eps-converted-to.pdf Graphic file (type pdf)
 <use ErrorVSrISSF-eps-converted-to.pdf>
 Package pdftex.def Info: ErrorVSrISSF-eps-converted-to.pdf  used on input line 
-578. on input line 578.
+580. on input line 580.
 Package pdftex.def Info: Requested size: 224.83601pt x 168.627pt on input line 
-578.
+580.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2265,16 +2259,16 @@ Package epstopdf Info: Source file: <ErrorVSrUNSF.eps>
 (epstopdf)                    size: 12778 bytes
 (epstopdf)             Command: <repstopdf --outfile=ErrorVSrUNSF-eps-converted
 -to.pdf ErrorVSrUNSF.eps>
-(epstopdf)             \includegraphics on input line 583.
+(epstopdf)             \includegraphics on input line 585.
 Package epstopdf Info: Output file is already uptodate.
 <ErrorVSrUNSF-eps-converted-to.pdf, id=184, pagebox=cropbox, 562.1pt x 421.575p
 t>
 File: ErrorVSrUNSF-eps-converted-to.pdf Graphic file (type pdf)
 <use ErrorVSrUNSF-eps-converted-to.pdf>
 Package pdftex.def Info: ErrorVSrUNSF-eps-converted-to.pdf  used on input line 
-583. on input line 583.
+585. on input line 585.
 Package pdftex.def Info: Requested size: 224.83601pt x 168.627pt on input line 
-583.
+585.
 
 (./FH Optimality Conditions Paper.bbl [9 <./allDataHeatF-eps-converted-to.pdf> 
 <./ErrorVSrISSF-eps-converted-to.pdf> <./ErrorVSrUNSF-eps-converted-to.pdf>])
@@ -2283,11 +2277,11 @@ Package pdftex.def Info: Requested size: 224.83601pt x 168.627pt on input line
 Package caption Warning: Unused \captionsetup[sub] on input line 26.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 606.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 606.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 608.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 608.
 (./FH Optimality Conditions Paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 606.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 606.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 608.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 608.
 Package rerunfilecheck Info: File `"FH Optimality Conditions Paper".out' has no
 t changed.
 (rerunfilecheck)             Checksum: 7B25A08FE92B188ADFF974E013698275;1088.
@@ -2302,7 +2296,7 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Here is how much of TeX's memory you used:
  43626 strings out of 492990
  973977 string characters out of 6132636
- 1122103 words of memory out of 5000000
+ 1122101 words of memory out of 5000000
  46377 multiletter control sequences out of 15000+600000
  560715 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2350,7 +2344,7 @@ pe1/public/cm-super/sfsl0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
 public/cm-super/sfti0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
 blic/cm-super/sfti1000.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
 ic/cm-super/sftt0900.pfb>
-Output written on "FH Optimality Conditions Paper.pdf" (10 pages, 600472 bytes)
+Output written on "FH Optimality Conditions Paper.pdf" (10 pages, 600844 bytes)
 .
 PDF statistics:
  429 PDF objects out of 1000 (max. 8388607)

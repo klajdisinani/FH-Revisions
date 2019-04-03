@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.23)  19 MAR 2019 16:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.23)  3 APR 2019 01:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -686,11 +686,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--123
 Here is how much of TeX's memory you used:
  22289 strings out of 492990
  576377 string characters out of 6132636
- 749197 words of memory out of 5000000
+ 749196 words of memory out of 5000000
  25452 multiletter control sequences out of 15000+600000
  12284 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,6n,96p,729b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,5n,96p,729b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
@@ -702,7 +702,7 @@ s/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmss10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmsy8.pfb>
-Output written on response.pdf (3 pages, 99461 bytes).
+Output written on response.pdf (3 pages, 99508 bytes).
 PDF statistics:
  57 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream

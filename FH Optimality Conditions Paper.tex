@@ -1,6 +1,8 @@
 %\documentclass[preprint]{elsarticle}
 \documentclass[twocolumn]{autart}  
 \input{paperPreamble}
+
+%to avoid whitespace
 \setlength{\parskip}{0pt}
 \setlength{\parsep}{0pt}
 \setlength{\headsep}{0pt}
@@ -8,6 +10,8 @@
 \setlength{\topmargin}{0pt}
 \setlength{\topsep}{0pt}
 \setlength{\partopsep}{0pt}
+
+
 \begin{document}
 
 \begin{frontmatter}
@@ -203,13 +207,11 @@ The main result is given by Theorem \ref{mh2opt}. However, we  need many supplem
 
 
 
-It is immediately clear that, the $\ch_2(t_f)$-error satisfies 
+It is immediately clear that, the $\ch_2(t_f)$-error, denoted by $\J$, satisfies 
 \begin{equation}\label{merexp}
 \begin{aligned}
-%\scalemath{0.9}
-{
-\norm{\h-\h_r}_{\ch_2({\tf})}^2=\norm{\h}_{\ch_2({\tf})}^2-2 \langle\h, \h_r\rangle_{\ch_2({\tf})}+\norm{\h_r}_{\ch_2({\tf})}^2,
-}
+\J&=\norm{\h-\h_r}_{\ch_2({\tf})}^2\\
+&=\norm{\h}_{\ch_2({\tf})}^2-2 \langle\h, \h_r\rangle_{\ch_2({\tf})}+\norm{\h_r}_{\ch_2({\tf})}^2,
 \end{aligned}
 \end{equation}
 where the inner product  $\langle\h, \h_r\rangle_{\ch_2({\tf})}$ is real since $\h(t)$ and $\h_r(t)$ are real. Finding the first-order necessary conditions for optimal ${\ch_2({\tf})}$ model reduction will require computing the gradient of the error expression \eqref{merexp} with respect to the optimization variables. 
@@ -315,7 +317,7 @@ which proves \eqref{eqn:Gatlk}. To prove \eqref{eqn:Gpatlk}, we first differenti
  \eqref{eqn:Gpatlk} and \eqref{eqn:Grpatlk} follow analogously. 
 \end{pf}%%%Start proof here
 \emph{{Proof of Theorem \ref{mh2opt}.}}
- Let $\J$ denote the $\ch_2({\tf})$ error norm square, i.e., 
+ As mentioned above, let $\J$ denote the $\ch_2({\tf})$ error norm square, i.e., 
 \begin{align*}
  \J&=\norm{\h -\h_r}^2_{\ch_2({\tf})} \\
 &=\norm{\h}_{\ch_2({\tf})}^2-2 \langle\h, \h_r\rangle_{\ch_2({\tf})}+\norm{\h_r}_{\ch_2({\tf})}^2.
@@ -351,8 +353,8 @@ Then, collecting  the terms that are multiplied by $\Delta\lc_{k}$ and $\Delta\r
 Setting $\nabla_{\rc_{k} }\J=0   \text{ and }\nabla_{\lc_{k} }\J=0 $, and using Lemma \ref{mgexp}, mainly
 \eqref{eqn:Gatlk} and \eqref{eqn:Gratlk}, yield 
 \begin{align*}
-\lc_k^T\G(-\lambda_k)=\lc_k^T\G_r(-\lambda_k) \quad \mbox{and}\quad
-\G(-\lambda_k)\rc_k=\G_r(-\lambda_k)\rc_k,
+\lc_k^T\G(-\lambda_k)&=\lc_k^T\G_r(-\lambda_k), \\ %\quad \mbox{and}\quad
+\G(-\lambda_k)\rc_k&=\G_r(-\lambda_k)\rc_k,
 \end{align*}
 which proves \eqref{eqn:cond1} and \eqref{eqn:cond2}. To prove \eqref{eqn:cond3},  we differentiate $\J$ in \eqref{merror}  with respect to the $k$-th pole $\lambda_k$: 
 After some tedious manipulations, we obtain 
