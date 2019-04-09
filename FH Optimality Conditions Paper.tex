@@ -357,16 +357,34 @@ Setting $\nabla_{\rc_{k} }\J=0   \text{ and }\nabla_{\lc_{k} }\J=0 $, and using 
 \G(-\lambda_k)\rc_k&=\G_r(-\lambda_k)\rc_k,
 \end{align*}
 which proves \eqref{eqn:cond1} and \eqref{eqn:cond2}. To prove \eqref{eqn:cond3},  we differentiate $\J$ in \eqref{merror}  with respect to the $k$-th pole $\lambda_k$: 
-After some tedious manipulations, we obtain 
 %\begin{equation}\label{eqn:l1} 
 %\begin{aligned}
-\begin{dmath}\label{eqn:l1} 
-\pder[\J]{\lambda_k} =-2\lc_k^T \left(\sum_{j=1}^n \cc_j\bb_j^T \dfrac{({\tf}(\lambda_k+\rho_j)-1)e^{(\rho_j+\lambda_k){\tf}}+1}{(\lambda_k+\rho_j)^2}\right)\rc_k  
-+2\lc_k^T \left(\sum^r_{i=1} \lc_i\rc_i^T\dfrac{({\tf}(\lambda_i+\lambda_j\k)-1)e^{(\lambda_i+\lambda_k){\tf}}+1}{(\lambda_i+\lambda_k)^2}\right)\rc_k.
+\begin{dmath}\label{eqn:diffl}
+\pder[\J]{\lambda_k}=-2\lc_k^T \left(\sum_{j=1}^n \cc_j\bb_j^T \dfrac{{\tf}(\lambda_k+\rho_j)e^{(\rho_j+\lambda_k){\tf}}} {(\lambda_k+\rho_j)^2}     -\dfrac       {e^{(\rho_j+\lambda_k){\tf}}-1}{(\lambda_k+\rho_j)^2}\right)\rc_k 
++2\lc_k^T \left(\sum^r_{i=1} \lc_i\rc_i^T\dfrac{{\tf}(\lambda_i+\lambda_j\k)e^{(\lambda_i+\lambda_k){\tf}}}  {(\lambda_i+\lambda_k)^2}         -\dfrac{e^{(\lambda_i+\lambda_k){\tf}}-1}{(\lambda_i+\lambda_k)^2}\right)\rc_k.
 \end{dmath}
+
+We rewrite \eqref{eqn:diffl} to obtain 
+
+\begin{dmath}
+\pder[\J]{\lambda_k} =-2K_1+2K_2
+\end{dmath}
+where
+\begin{dmath}\label{eqn:l11} 
+K_1=\lc_k^T \left(\sum_{j=1}^n \cc_j\bb_j^T \dfrac{({\tf}(\lambda_k+\rho_j)-1)e^{(\rho_j+\lambda_k){\tf}}+1}{(\lambda_k+\rho_j)^2}\right)\rc_k  
+\end{dmath}
+\begin{dmath}\label{eqn:l12} 
+K_2=\lc_k^T \left(\sum^r_{i=1} \lc_i\rc_i^T\dfrac{({\tf}(\lambda_i+\lambda_j\k)-1)e^{(\lambda_i+\lambda_k){\tf}}+1}{(\lambda_i+\lambda_k)^2}\right)\rc_k.
+\end{dmath}
+
+
+%\begin{dmath}\label{eqn:l1} 
+%\pder[\J]{\lambda_k} =-2\lc_k^T \left(\sum_{j=1}^n \cc_j\bb_j^T \dfrac{({\tf}(\lambda_k+\rho_j)-1)e^{(\rho_j+\lambda_k){\tf}}+1}{(\lambda_k+\rho_j)^2}\right)\rc_k  
+%+2\lc_k^T \left(\sum^r_{i=1} \lc_i\rc_i^T\dfrac{({\tf}(\lambda_i+\lambda_j\k)-1)e^{(\lambda_i+\lambda_k){\tf}}+1}{(\lambda_i+\lambda_k)^2}\right)\rc_k.
+%\end{dmath}
 %\end{aligned}
 %\end{equation}
-Lemma \eqref{mgexp}, specifically \eqref{eqn:Gpatlk} and \eqref{eqn:Grpatlk}, show that the expressions in the parentheses in \eqref{eqn:l1}  are, respectively, $-\G'(-\lambda_k)$ and $-\G_r'(-\lambda_k)$.
+Lemma \eqref{mgexp}, specifically \eqref{eqn:Gpatlk} and \eqref{eqn:Grpatlk}, show that the expressions in the parentheses in \eqref{eqn:l11}  and \eqref{eqn:l12}   are, respectively, $-\G'(-\lambda_k)$ and $-\G_r'(-\lambda_k)$.
 If $\pder[\J]{\lambda_k}= 0$, then
 \begin{align*}
 \lc_k^T\G'(-\lambda_k)\rc_k&=\lc_k^T\G_r'(-\lambda_k)\rc_k,
@@ -570,21 +588,48 @@ The best improvement of the \goyal \ initialization has occurred for the unstabl
 % \end{figure}
  
  
-  \begin{figure}[H] 
+ 
+ 
+ %This is the original figure
+%  \begin{figure}[H] 
+% \centering
+% \includegraphics [scale=0.4]{allDataHeatF} 
+% \caption{\FH \ and other algorithms for a heat model\label{fig:hm}}
+% \end{figure}
+% \begin{figure}[H]
+% \centering
+%  \includegraphics [scale=0.4]{ErrorVSrISSF}
+% \caption{\FH \ and other algorithms for the ISS model \label{fig:iss}}
+% \end{figure}
+%  \begin{figure}[H]
+% \centering
+%   \includegraphics [scale=0.4]{ErrorVSrUNSF}
+%      \caption{\FH \ and other algorithms for the unstable model \label{fig:uns}}
+% \end{figure}
+%
+
+ \begin{figure}[H] 
  \centering
- \includegraphics [scale=0.4]{allDataHeatF} 
+ \includegraphics [scale=0.4]{fig1} 
  \caption{\FH \ and other algorithms for a heat model\label{fig:hm}}
  \end{figure}
  \begin{figure}[H]
  \centering
-  \includegraphics [scale=0.4]{ErrorVSrISSF}
- \caption{\FH \ and other algorithms for the ISS model \label{fig:iss}}
+  \includegraphics [scale=0.4]{fig2}
+ \caption{\FH \ and other algorithms for the heat model \label{fig:hm1}}
  \end{figure}
   \begin{figure}[H]
  \centering
-   \includegraphics [scale=0.4]{ErrorVSrUNSF}
+   \includegraphics [scale=0.4]{fig3}
+      \caption{\FH \ and other algorithms for the ISS model \label{fig:iss}}
+ \end{figure}
+ 
+ \begin{figure}[H]
+ \centering
+   \includegraphics [scale=0.4]{fig4}
       \caption{\FH \ and other algorithms for the unstable model \label{fig:uns}}
  \end{figure}
+
 
  
  
