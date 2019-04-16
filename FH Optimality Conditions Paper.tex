@@ -171,11 +171,14 @@ This result states that the transfer function of the optimal $\ch_2$ approximati
 
 %FH model reduction
 \section{$\ch_2(\tf)$ Optimal Model Reduction on a Finite Horizon}  \label{sec:main} 
-If we are interested  in the behavior of a system only in a finite time interval (or access to a numerical simulation only on a finite time interval), we can obtain better reduced models by defining the measure of approximation quality over the interval of interest, instead of  focussing on the infinite time horizon. Also, in case of an unstable system, since the impulse grows unbounded as $t \to \infty$, the regular $\ch_2$ measure cannot be applied. Therefore, we will focus on model reduction on a finite time horizon. 
+%If we are interested  in the behavior of a system only in a finite time interval (or access to a numerical simulation only on a finite time interval), we can obtain better reduced models by defining the measure of approximation quality over the interval of interest, instead of  focussing on the infinite time horizon. 
+%
+{\color{red}
+In this section, we discuss the main result of the paper i.e. the $\ch_2(\tf)$ local optimality conditions, their proof, and the importance of such conditions for model reduction of large-scale dynamical systems.}
 
-We would like to point out that for an unstable dynamical system, if the matrix $\A$ does not have purely imaginary eigenvalues, one can work with the
- $\mathcal{L}_2$ norm by decomposing it into a stable and anti-stable system, and then obtain an interpolatory reduced model based on this measure.  However, this solution requires destroying the causality of the underlying dynamics \cite{magruder2010rational}. This is not the framework we are interested in here and we will work with a finite-time interval. 
- 
+
+%Also, in case of an unstable system, since the impulse grows unbounded as $t \to \infty$, the regular $\ch_2$ measure cannot be applied. Therefore, we will focus on model reduction on a finite time horizon. 
+
   
 %Error measures in a finite-time horizon
 \subsection{$\ch_2(t_f)$ Norm on a Finite-time Horizon}
@@ -200,21 +203,17 @@ The problem we are interested in is as follows: Given a dynamical system with im
 \h_r(t)=\sum_{i=1}^r e^{\lambda_it}\lc_i\rc_i^T.
 \end{aligned}
 \end{equation}
-such that $\norm{\h - \h_r}_{\ch_2(\tf)}$ is minimized. As in the regular $\ch_2$ case, this is a non-convex optimization problem and we will focus on local minimizers. Using 
-the parametrization \eqref{kernel2}, we we will derive interpolation-based necessary conditions for optimality.
+such that $\norm{\h - \h_r}_{\ch_2(\tf)}$ is minimized. As in the regular $\ch_2$ case, this is a non-convex optimization problem and we will focus on local minimizers. Using the parametrization \eqref{kernel2}, we we will derive interpolation-based necessary conditions for optimality.
 The main result is given by Theorem \ref{mh2opt}. However, we  need many supplementary results, Lemmas 
-\ref{minnerexp}-\ref{mgexp}, to reach this final conclusion. 
-
-
-
-It is immediately clear that, the $\ch_2(t_f)$-error, denoted by $\J$, satisfies 
+\ref{minnerexp}-\ref{mgexp}, to reach this final conclusion. It is immediately clear that, the $\ch_2(t_f)$-error, denoted by $\J$, satisfies 
 \begin{equation}\label{merexp}
 \begin{aligned}
 \J&=\norm{\h-\h_r}_{\ch_2({\tf})}^2\\
 &=\norm{\h}_{\ch_2({\tf})}^2-2 \langle\h, \h_r\rangle_{\ch_2({\tf})}+\norm{\h_r}_{\ch_2({\tf})}^2,
 \end{aligned}
 \end{equation}
-where the inner product  $\langle\h, \h_r\rangle_{\ch_2({\tf})}$ is real since $\h(t)$ and $\h_r(t)$ are real. Finding the first-order necessary conditions for optimal ${\ch_2({\tf})}$ model reduction will require computing the gradient of the error expression \eqref{merexp} with respect to the optimization variables. 
+where the inner product  $\langle\h, \h_r\rangle_{\ch_2({\tf})}$ is real since $\h(t)$ and $\h_r(t)$ are real.
+Finding the first-order necessary conditions for optimal ${\ch_2({\tf})}$ model reduction will require computing the gradient of the error expression \eqref{merexp} with respect to the optimization variables. 
 Since the reduced model, as described by  the impulse response in $\h_r(t)$, is parametrized by the 
 reduced order poles $\{\lambda_i\}$, and the residue directions $\{\lc_i\}$ and $\{\rc_i\}$, we will be computing the gradient of the error with respect to these variables. Since the first term in the error \eqref{merexp}, i.e., $\norm{\h}_{\ch_2({\tf})}$, is a constant, we will be focusing on the remaining two terms only. First, in the next lemma, we will formulate these two last terms in terms of $\{\lambda_i\}$, 
 $\{\lc_i\}$ and $\{\rc_i\}$.
@@ -356,14 +355,15 @@ Setting $\nabla_{\rc_{k} }\J=0   \text{ and }\nabla_{\lc_{k} }\J=0 $, and using 
 \lc_k^T\G(-\lambda_k)&=\lc_k^T\G_r(-\lambda_k), \\ %\quad \mbox{and}\quad
 \G(-\lambda_k)\rc_k&=\G_r(-\lambda_k)\rc_k,
 \end{align*}
-which proves \eqref{eqn:cond1} and \eqref{eqn:cond2}. To prove \eqref{eqn:cond3},  we differentiate $\J$ in \eqref{merror}  with respect to the $k$-th pole $\lambda_k$: 
+which proves \eqref{eqn:cond1} and \eqref{eqn:cond2}. To prove \eqref{eqn:cond3},  we differentiate $\J$ in \eqref{merror}  with respect to the $k$-th pole $\lambda_k$. Note that we have written $\J$ in such a way to isolate the terms that depend on $\lambda_k$ from the ones that do not. Thus, many of the terms in \eqref{merror} have a zero derivative and we obtain:
 %\begin{equation}\label{eqn:l1} 
 %\begin{aligned}
 \begin{dmath}\label{eqn:diffl}
 \pder[\J]{\lambda_k}=-2\lc_k^T \left(\sum_{j=1}^n \cc_j\bb_j^T \dfrac{{\tf}(\lambda_k+\rho_j)e^{(\rho_j+\lambda_k){\tf}}} {(\lambda_k+\rho_j)^2}     -\dfrac       {e^{(\rho_j+\lambda_k){\tf}}-1}{(\lambda_k+\rho_j)^2}\right)\rc_k 
 +2\lc_k^T \left(\sum^r_{i=1} \lc_i\rc_i^T\dfrac{{\tf}(\lambda_i+\lambda_j\k)e^{(\lambda_i+\lambda_k){\tf}}}  {(\lambda_i+\lambda_k)^2}         -\dfrac{e^{(\lambda_i+\lambda_k){\tf}}-1}{(\lambda_i+\lambda_k)^2}\right)\rc_k.
 \end{dmath}
-
+{\color{red}
+Note that the first term in \eqref{eqn:diffl} corresponds to the derivative of the second term in \eqref{merror} and the second term in \eqref{eqn:diffl} corresponds to the derivative of the last four terms in \eqref{merror}.}
 We rewrite \eqref{eqn:diffl} to obtain 
 
 \begin{dmath}
@@ -412,6 +412,13 @@ u_{\tf}(t)=
 In other words, if we were to use an $\ch_2$ optimal algorithm on $\G(s)$, we would be approximating a finite horizon model by an infinite horizon one. For this reason, the interpolation of $\G(s)$ by $\G_r(s)$ is necessary. 
 However, the optimal interpolation points  and directions are still determined by the reduced model $\HH_r(s)$. The algorithmic implications of this result will be revisited in Section \ref{sec:discuss}.}
 \end{remark}
+
+\begin{remark}
+{\color {red}
+We would like to point out that for an unstable dynamical system, if the matrix $\A$ does not have purely imaginary eigenvalues, one can work with the
+ $\mathcal{L}_2$ norm by decomposing it into a stable and anti-stable system, and then obtain an interpolatory reduced model based on this measure.  However, this solution requires destroying the causality of the underlying dynamics \cite{magruder2010rational}. This is not the framework we are interested in here and we will work with a finite-time interval. }
+ \end{remark}
+
 
 %%remark
 %\begin{remark}
@@ -608,28 +615,28 @@ The best improvement of the \goyal \ initialization has occurred for the unstabl
 % \end{figure}
 %
 
- \begin{figure}[H] 
+ \begin{figure}%[H] 
  \centering
- \includegraphics [scale=0.4]{fig1} 
+ \includegraphics [scale=0.5]{fig1h} 
  \caption{\FH \ and other algorithms for a heat model\label{fig:hm}}
  \end{figure}
- \begin{figure}[H]
+ \begin{figure}%[H]
  \centering
-  \includegraphics [scale=0.4]{fig2}
- \caption{\FH \ and other algorithms for the heat model \label{fig:hm1}}
+  \includegraphics [scale=0.5]{fig2i}
+ \caption{\FH \ and other algorithms for the heat model \label{fig:iss}}
  \end{figure}
-  \begin{figure}[H]
+  \begin{figure}%[H]
  \centering
-   \includegraphics [scale=0.4]{fig3}
-      \caption{\FH \ and other algorithms for the ISS model \label{fig:iss}}
+   \includegraphics [scale=0.5]{fig3u}
+      \caption{\FH \ and other algorithms for the ISS model \label{fig:uns}}
  \end{figure}
  
- \begin{figure}[H]
- \centering
-   \includegraphics [scale=0.4]{fig4}
-      \caption{\FH \ and other algorithms for the unstable model \label{fig:uns}}
- \end{figure}
-
+% \begin{figure}[H]
+% \centering
+%   \includegraphics [scale=0.4]{fig4}
+%      \caption{\FH \ and other algorithms for the unstable model \label{fig:uns}}
+% \end{figure}
+%
 
  
  
