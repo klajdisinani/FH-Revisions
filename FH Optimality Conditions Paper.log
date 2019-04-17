@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.23)  16 APR 2019 22:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.23)  16 APR 2019 23:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2122,10 +2122,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 Package hyperref Info: bookmark level for unknown Lemma defaults to 0 on input 
 line 220.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3]
+[3]
 Overfull \hbox (4.8542pt too wide) detected at line 246
 []
  []
@@ -2134,9 +2131,6 @@ Overfull \hbox (4.8542pt too wide) detected at line 246
 Underfull \hbox (badness 2680) in paragraph at lines 246--248
 \T1/cmr/m/n/10 Computing the in-te-gral and us-ing the fact that
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \hbox (0.25319pt too wide) in paragraph at lines 301--303
@@ -2152,15 +2146,15 @@ Underfull \hbox (badness 4108) in paragraph at lines 301--303
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
 Underfull \hbox (badness 1776) in paragraph at lines 308--312
 \T1/cmr/m/n/10 Thus, $\OT1/cmr/bx/n/10 G\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\O
 ML/cmm/m/it/10 ^^U[]\OT1/cmr/m/n/10 ) = [][] [][][][][]$\T1/cmr/m/n/10 , which
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
@@ -2230,7 +2224,7 @@ Package epstopdf Info: Source file: <fig1h.eps>
  fig1h.eps>
 (epstopdf)             \includegraphics on input line 620.
 Package epstopdf Info: Output file is already uptodate.
-<fig1h-eps-converted-to.pdf, id=184, pagebox=cropbox, 497.86pt x 754.82pt>
+<fig1h-eps-converted-to.pdf, id=186, pagebox=cropbox, 497.86pt x 754.82pt>
 File: fig1h-eps-converted-to.pdf Graphic file (type pdf)
 <use fig1h-eps-converted-to.pdf>
 Package pdftex.def Info: fig1h-eps-converted-to.pdf  used on input line 620. on
@@ -2252,7 +2246,7 @@ Package epstopdf Info: Source file: <fig2i.eps>
  fig2i.eps>
 (epstopdf)             \includegraphics on input line 625.
 Package epstopdf Info: Output file is already uptodate.
-<fig2i-eps-converted-to.pdf, id=185, pagebox=cropbox, 562.1pt x 756.8275pt>
+<fig2i-eps-converted-to.pdf, id=187, pagebox=cropbox, 562.1pt x 756.8275pt>
 File: fig2i-eps-converted-to.pdf Graphic file (type pdf)
 <use fig2i-eps-converted-to.pdf>
 Package pdftex.def Info: fig2i-eps-converted-to.pdf  used on input line 625. on
@@ -2274,7 +2268,7 @@ Package epstopdf Info: Source file: <fig3u.eps>
  fig3u.eps>
 (epstopdf)             \includegraphics on input line 630.
 Package epstopdf Info: Output file is already uptodate.
-<fig3u-eps-converted-to.pdf, id=186, pagebox=cropbox, 511.9125pt x 756.8275pt>
+<fig3u-eps-converted-to.pdf, id=188, pagebox=cropbox, 511.9125pt x 756.8275pt>
 File: fig3u-eps-converted-to.pdf Graphic file (type pdf)
 <use fig3u-eps-converted-to.pdf>
 Package pdftex.def Info: fig3u-eps-converted-to.pdf  used on input line 630. on
@@ -2309,9 +2303,9 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 43630 strings out of 492990
- 973922 string characters out of 6132636
- 1118317 words of memory out of 5000000
+ 43631 strings out of 492990
+ 973933 string characters out of 6132636
+ 1122317 words of memory out of 5000000
  46378 multiletter control sequences out of 15000+600000
  560715 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2359,11 +2353,11 @@ pe1/public/cm-super/sfsl0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
 public/cm-super/sfti0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
 blic/cm-super/sfti1000.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
 ic/cm-super/sftt0900.pfb>
-Output written on "FH Optimality Conditions Paper.pdf" (11 pages, 609196 bytes)
+Output written on "FH Optimality Conditions Paper.pdf" (11 pages, 610421 bytes)
 .
 PDF statistics:
- 436 PDF objects out of 1000 (max. 8388607)
- 365 compressed objects within 4 object streams
- 117 named destinations out of 1000 (max. 500000)
+ 438 PDF objects out of 1000 (max. 8388607)
+ 367 compressed objects within 4 object streams
+ 118 named destinations out of 1000 (max. 500000)
  132 words of extra memory for PDF output out of 10000 (max. 10000000)
 
