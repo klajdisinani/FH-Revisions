@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex FH Optimality Conditions Paper"] 1554234382 "FH Optimality Conditions Paper.aux" "FH Optimality Conditions Paper.bbl" "FH Optimality Conditions Paper" 1554234390
+["bibtex FH Optimality Conditions Paper"] 1556742750 "FH Optimality Conditions Paper.aux" "FH Optimality Conditions Paper.bbl" "FH Optimality Conditions Paper" 1556742765
   "/usr/local/texlive/2017/texmf-dist/bibtex/bst/base/plain.bst" 1480098433 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "FH Optimality Conditions Paper.aux" 1554234384 11004 6624569e47feb0300b2546bcb15b1fa3 ""
-  "bibliography.bib" 1554228756 21391 f5a4abdf17a447c2541e17bd3452c373 ""
+  "FH Optimality Conditions Paper.aux" 1556742751 11712 1f14b3bb4e0123b06f90ab062a5079b6 ""
+  "bibliography.bib" 1556742198 23675 0fa11d062bbdf38c08f918f34b60c2a9 ""
   (generated)
   "FH Optimality Conditions Paper.blg"
   "FH Optimality Conditions Paper.bbl"
-["pdflatex"] 1554234383 "FH Optimality Conditions Paper.tex" "FH Optimality Conditions Paper.pdf" "FH Optimality Conditions Paper" 1554234390
+["pdflatex"] 1556742750 "FH Optimality Conditions Paper.tex" "FH Optimality Conditions Paper.pdf" "FH Optimality Conditions Paper" 1556742765
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1480098666 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/jknappen/ec/ecbx0900.tfm" 1480098696 3584 1a7de6c99457381c64abc1a7c545505f ""
@@ -335,17 +335,18 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1505419812 2409949 deaec63ad7d954703cde659d038a658c ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1503518986 4130344 a00e03c08dfc3b6ae935d8dd9a4f15ef ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "ErrorVSrISSF.eps" 1528738485 28045 38297c84f7a3955a81e479cf6938d491 ""
-  "ErrorVSrUNSF.eps" 1528738546 30857 1b6bd929f4ce504b9d29e50df3c63776 ""
-  "FH Optimality Conditions Paper.aux" 1554234384 11004 6624569e47feb0300b2546bcb15b1fa3 ""
-  "FH Optimality Conditions Paper.bbl" 1554234382 8398 694b5f75a8f48248aa6f69f5ee6389e3 "bibtex FH Optimality Conditions Paper"
-  "FH Optimality Conditions Paper.out" 1554234384 1088 e151221eb5733a7a6f7b4377fa732648 ""
-  "FH Optimality Conditions Paper.tex" 1554234367 57571 676f599b86c07cf0701db854f7c134de ""
-  "allDataHeatF.eps" 1528738262 39718 6f657290bf562a614f5e6137fe151f4d ""
+  "FH Optimality Conditions Paper.aux" 1556742751 11712 1f14b3bb4e0123b06f90ab062a5079b6 ""
+  "FH Optimality Conditions Paper.bbl" 1556742750 9875 ca3c0297f101b24577501a63f77a7ed4 "bibtex FH Optimality Conditions Paper"
+  "FH Optimality Conditions Paper.out" 1556742751 1088 9eb5bde5accdb8eced8e193cf3aeff9d ""
+  "FH Optimality Conditions Paper.tex" 1556742748 56676 ea13cbf5d470208a92a06ef924b7145f ""
+  "ISS1RErrorSmooth.eps" 1556735847 51514 07f69717ade78b93e2b011fa84846eb3 ""
   "autart.cls" 1553450712 57060 d0761176d52ac0975e527a3e0de3d223 ""
-  "paperPreamble.tex" 1554234312 6717 5dad086382b7e6de11aea3b1ac99da5d ""
+  "fig1h.eps" 1554844503 84983 a26a9d4b6402792e9899240766621c1f ""
+  "fig2i.eps" 1554844472 34094 ca0e129f5726563ad01e9ce63b80b02c ""
+  "fig3u.eps" 1554844514 49374 3b83b3409bd6a4c336a4132e5ea50d88 ""
+  "paperPreamble.tex" 1556735847 6889 54f507102e39d089d8e9fb8034813223 ""
   (generated)
-  "FH Optimality Conditions Paper.out"
   "FH Optimality Conditions Paper.pdf"
+  "FH Optimality Conditions Paper.out"
   "FH Optimality Conditions Paper.log"
   "FH Optimality Conditions Paper.aux"

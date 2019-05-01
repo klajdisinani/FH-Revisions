@@ -44,6 +44,13 @@ Christopher~A Beattie and Serkan Gugercin.
   Chinese Control Conference. CDC/CCC 2009. Proceedings of the 48th IEEE
   Conference on}, pages 5370--5375. IEEE, 2009.
 
+\bibitem{BonD07}
+B.N. Bond and L.~Daniel.
+\newblock A piecewise-linear moment-matching approach to parameterized
+  model-order reduction for highly nonlinear systems.
+\newblock {\em IEEE Transactions on Computer-Aided Design of Integrated
+  Circuits and Systems}, 26(12):2116--2129, 2007.
+
 \bibitem{breiten2013near}
 T.~Breiten, C.A. Beattie, and S.~Gugercin.
 \newblock Near-optimal frequency-weighted interpolatory model reduction.
@@ -73,6 +80,18 @@ Y.~Chahlaoui and P.~Van Dooren.
 \newblock A collection of benchmark examples for model reduction of linear time
   invariant dynamical systems.
 \newblock Technical report, SLICOT Working Note 2002-2, 2002.
+
+\bibitem{de2015nonlinear}
+Eric De~Sturler, Serkan Gugercin, Misha~E Kilmer, Saifon Chaturantabut,
+  Christopher Beattie, and Meghan O'Connell.
+\newblock Nonlinear parametric inversion using interpolatory model reduction.
+\newblock {\em SIAM Journal on Scientific Computing}, 37(3):B495--B517, 2015.
+
+\bibitem{Druskin2011solution}
+V.~Druskin, V.~Simoncini, and M.~Zaslavsky.
+\newblock Solution of the time-domain inverse resistivity problem in the model
+  reduction framework part {I}. {One}-dimensional problem with {SISO} data.
+\newblock {\em SIAM Journal on Scientific Computing}, 35(3):A1621--A1640, 2013.
 
 \bibitem{FulO90}
 P.~Fulcheri and M.~Olivi.
@@ -125,6 +144,14 @@ Y.~Halevi.
 \newblock {\em IEEE Transactions on automatic control}, 37(10):1537--1542,
   1992.
 
+\bibitem{Hess2014}
+M.W. Hess and P.~Benner.
+\newblock A reduced basis method for microwave semiconductor devices with
+  geometric variations.
+\newblock {\em COMPEL: The International Journal for Computation and
+  Mathematics in Electrical and Electronic Engineering}, 33(4):1071--1081,
+  2014.
+
 \bibitem{HolLB96}
 P.~Holmes, J.~L. Lumley, and G.~Berkooz.
 \newblock {\em Turbulence, coherent structures, dynamical systems and symmetry
@@ -137,6 +164,12 @@ D.C. Hyland and D.S. Bernstein.
   relationships among the methods of wilson, skelton, and moore.
 \newblock {\em IEEE Trans. Automat. Control,.}, 30:1201--1211, 1985.
 
+\bibitem{kellems2009low}
+Anthony~R Kellems, Derrick Roos, Nan Xiao, and Steven~J Cox.
+\newblock Low-dimensional, morphologically accurate models of subthreshold
+  membrane potential.
+\newblock {\em Journal of computational neuroscience}, 27(2):161, 2009.
+
 \bibitem{Kur17}
 Patrick K\"urschner.
 \newblock Balanced truncation model order reduction in limited time intervals
@@ -148,6 +181,13 @@ A.~Lepschy, G.A. Mian, G.~Pinato, and U.~Viaro.
 \newblock Rational $l_2$ approximation: A nongradient algorithm.
 \newblock {\em Proceedings of the 30th IEEE Conference on Decision and
   Control}, pages 2321--2323, 1991.
+
+\bibitem{Lieberman2010}
+C.~Lieberman, K.~Willcox, and O.~Ghattas.
+\newblock Parameter and state model reduction for large-scale statistical
+  inverse problems.
+\newblock {\em SIAM Journal on Scientific Computing}, 32(5):2523--2542, August
+  2010.
 
 \bibitem{magruder2010rational}
 Caleb Magruder, Christopher Beattie, and Serkan Gugercin.
@@ -211,12 +251,6 @@ D.~A. Wilson.
 \newblock Optimum solution of model-reduction problem.
 \newblock {\em Proceedings of the Institution of Electrical Engineers},
   117(6):1161--1165, 1970.
-
-\bibitem{BoyP11}
-Boyuan Yan and Peng Li.
-\newblock Reduced order modeling of passive and quasi-active dendrites for
-  nervous system simulation.
-\newblock {\em Journal of computational neuroscience}, 31:247--71, 10 2011.
 
 \bibitem{YanL99}
 W.~Y. Yan and J.~Lam.

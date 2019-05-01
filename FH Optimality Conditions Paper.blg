@@ -1,57 +1,46 @@
 This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: FH Optimality Conditions Paper.aux
-White space in argument---line 19 of file FH Optimality Conditions Paper.aux
- : \citation{Steve
- :                 Cox}
-I'm skipping whatever remains of this command
 The style file: plain.bst
 Database file #1: bibliography.bib
-You're missing a field name---line 30 of file bibliography.bib
- : 
- : %doi = {10.1007/s10827-010-0309-5}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Sha03"
-You've used 38 entries,
+You've used 43 entries,
             2118 wiz_defined-function locations,
-            768 strings with 10680 characters,
-and the built_in function-call counts, 13501 in all, are:
-= -- 1368
-> -- 565
+            795 strings with 11841 characters,
+and the built_in function-call counts, 15491 in all, are:
+= -- 1564
+> -- 670
 < -- 9
-+ -- 229
-- -- 182
-* -- 900
-:= -- 2172
-add.period$ -- 118
-call.type$ -- 38
-change.case$ -- 201
++ -- 272
+- -- 218
+* -- 1077
+:= -- 2503
+add.period$ -- 133
+call.type$ -- 43
+change.case$ -- 234
 chr.to.int$ -- 0
-cite$ -- 38
-duplicate$ -- 515
-empty$ -- 1097
-format.name$ -- 182
-if$ -- 2901
+cite$ -- 43
+duplicate$ -- 570
+empty$ -- 1242
+format.name$ -- 218
+if$ -- 3298
 int.to.chr$ -- 0
-int.to.str$ -- 38
-missing$ -- 37
-newline$ -- 191
-num.names$ -- 78
-pop$ -- 208
+int.to.str$ -- 43
+missing$ -- 42
+newline$ -- 216
+num.names$ -- 88
+pop$ -- 231
 preamble$ -- 1
-purify$ -- 165
+purify$ -- 193
 quote$ -- 0
-skip$ -- 387
+skip$ -- 423
 stack$ -- 0
-substring$ -- 1009
-swap$ -- 129
+substring$ -- 1184
+swap$ -- 134
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 146
+type$ -- 166
 warning$ -- 0
-while$ -- 130
-width$ -- 40
-write$ -- 418
-(There were 2 error messages)
+while$ -- 149
+width$ -- 45
+write$ -- 473
