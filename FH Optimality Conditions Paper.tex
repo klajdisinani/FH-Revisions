@@ -34,36 +34,56 @@ Using the underlying inner product space, we derive the interpolatory first-orde
 
 \end{frontmatter}
 %Introduction
+%Introduction
 \section{Introduction}
-Simulation, design, and control of dynamical systems play an important role in numerous scientific and industrial tasks such as signal propagation in the nervous system\cite{Steve Cox}, heat dissipation, prediction of major weather events \cite{BoyP11,Sha03,Ant05}. The need for  detailed  models due to the increasing demand for greater resolution leads to  
+%Simulation, design, and control of dynamical systems play an important role in numerous scientific and industrial tasks such as signal propagation in the nervous system\cite{kellems2009low}, heat dissipation, prediction of major weather events \cite{BoyP11,Sha03,Ant05}. 
+Simulation, design, and control of dynamical systems play an important role in numerous scientific and industrial tasks such as \textcolor{red}{signal propagation in the nervous system\cite{kellems2009low};  the synthesis  of
+interconnect \cite{BonD07} and semiconductor devices \cite{Hess2014}; large-scale inverse problem,
+ \cite{Druskin2011solution,Lieberman2010,de2015nonlinear}; and prediction of major weather events \cite{BoyP11,Sha03,Ant05}.}
+The need for  detailed  models due to the increasing demand for greater resolution leads to  
 large-scale dynamical systems, posing tremendous computational difficulties when applied in numerical simulations. In order to overcome these challenges, we perform  model reduction where we replace the large-scale dynamics with high-fidelity reduced representations.
 
 Consider the linear time-invariant dynamical system:
+%\begin{equation}  \label{fom1}
+%\begin{array}{rcl}
+%\dot{\x}(t) & =& \A\x(t) +\B\uu(t)\\
+%\y(t)&=&\C\x(t) 
+%\end{array}
+%%~~\mbox{with}~~ \x(0) = \mathbf{0},
+%\; \Leftrightarrow \;
+%\y(t)=\int_{0}^{t}\h (t-\tau)\uu(\tau) d\tau,
+%\end{equation}
 \begin{equation}  \label{fom1}
-\begin{array}{rcl}
-\dot{\x}(t) & =& \A\x(t) +\B\uu(t)\\
-\y(t)&=&\C\x(t) 
-\end{array}
-%~~\mbox{with}~~ \x(0) = \mathbf{0},
-\; \Leftrightarrow \;
-\y(t)=\int_{0}^{t}\h (t-\tau)\uu(\tau) d\tau,
+\begin{aligned}
+\dot{\x}(t) & = \A\x(t) +\B\uu(t),~~~\x(0) = \mathbf{0},\\
+\y(t)&= \C\x(t)  = \int_{0}^{t}\h (t-\tau)\uu(\tau) d\tau,
+\end{aligned}
 \end{equation}
 \noindent
-where $  \x(0) = \mathbf{0}, \A \in \R^{n\times n}$, $\B\in \R^{n\times m}$, and $\C\in \R^{p\times n}$ are constant matrices; 
+where %$  \x(0) = \mathbf{0}, \A \in \R^{n\times n}$,
+$ \A \in \R^{n\times n}$,
+ $\B\in \R^{n\times m}$, and $\C\in \R^{p\times n}$ are constant matrices; 
 the variable $\x(t)\in \R^n$ denotes the internal variables, $\uu(t)\in \R^m$ denotes the control inputs, and $\y(t)\in \R^p$ denotes the outputs; and $\h(t)=\C e^{\A t}\B$ is the impulse response of the full model.   The length of the internal variable $\x(t)$, i.e., $n$, is called the order of the full model that we would like to reduce.  Model
 reduction achieves this by replacing the original model with a lower dimensional one:
+%\begin{equation}  \label{rom1}
+%%\begin{array}{rcl}
+%\begin{aligned}
+%\dot{\x}_r(t)&=\A_r\x_r(t)+\B_r\uu(t)\\
+%\y_r(t)&=\C_r\x_r(t) 
+%\end{aligned}
+%%\end{array}
+%%~~\mbox{with}~~ \x_r(0) = \mathbf{0},
+%\; \Leftrightarrow \;
+%\y_r(t)=\int_{0}^{t}\h_r (t-\tau)\uu(\tau)d\tau,
+%\end{equation}
 \begin{equation}  \label{rom1}
-%\begin{array}{rcl}
 \begin{aligned}
-\dot{\x}_r(t)&=\A_r\x_r(t)+\B_r\uu(t)\\
-\y_r(t)&=\C_r\x_r(t) 
+\dot{\x}_r(t)&=\A_r\x_r(t)+\B_r\uu(t),~~~\x_r(0) = \mathbf{0},\\
+\y_r(t)&=\C_r\x_r(t)  = \int_{0}^{t}\h_r (t-\tau)\uu(\tau)d\tau,
 \end{aligned}
-%\end{array}
-%~~\mbox{with}~~ \x_r(0) = \mathbf{0},
-\; \Leftrightarrow \;
-\y_r(t)=\int_{0}^{t}\h_r (t-\tau)\uu(\tau)d\tau,
 \end{equation}
-where as in \eqref{fom1}, $\x_r(0) = \mathbf{0}, \h_r(t)=\C_r e^{\A_r t}\B_r$ is the impulse response of the reduced model, and $\A_r \in \R^{r\times r}$, $\B_r\in \R^{r\times m}$, and $\C_r\in \R^{p\times r}$ with $r\ll n$. The goal is that the output of the reduced model, $\y_r(t)$, approximates the true output, $\y(t)$, of the original system accurately in an appropriate norm. 
+where as in \eqref{fom1}, %$\x_r(0) = \mathbf{0}, \h_r(t)=\C_r e^{\A_r t}\B_r$
+$\h_r(t)=\C_r e^{\A_r t}\B_r$  is the impulse response of the reduced model, and $\A_r \in \R^{r\times r}$, $\B_r\in \R^{r\times m}$, and $\C_r\in \R^{p\times r}$ with $r\ll n$. The goal is that the output of the reduced model, $\y_r(t)$, approximates the true output, $\y(t)$, of the original system accurately in an appropriate norm. 
 
 For the linear dynamical systems we consider here, a plethora of methods exists
 for producing high-fidelity/optimal reduced models, such as  balanced truncation \cite{MulR76,Moo81} and its variants, optimal Hankel norm approximation \cite{Glo84}, and the Iterative Rational Krylov Algorithm (IRKA) \cite{GugBA08} and its variants; see \cite{Ant05,BauBF14} for further references.
@@ -71,10 +91,14 @@ These methods usually focus on constructing high-quality reduced models  over an
 
 
 Time-limited balanced truncation \cite{GawJ90,GugA03,RedK17,Kur17} and Proper Orthogonal Decomposition (POD)   \cite{HolLB96}  are two common frameworks to create reduced models on a finite horizon. 
-For time-limited balanced truncation, \cite{GugA03} establishes an upper bound for the $\ch_\infty$ error between the full and reduced models,  \cite{RedK17} provides an $\ch_2$ error bound. In this paper,  we explore $\ch_2(\tf)$ optimality for model reduction over a finite time horizon. 
-  We establish $\ch_2(\tf)$ optimality conditions over a finite time horizon and introduce an algorithm which yields better approximations of the large-scale dynamical systems compared to other model reduction methods.
- 
-The optimality requires a parametrization of the reduced model. We will work with the time-domain representation of the dynamical system to derive the optimality condition. Specifically, we represent the impulse response of the reduced dynamical system using the modal decomposition, i.e.,
+For time-limited balanced truncation, \cite{GugA03} establishes an upper bound for the $\ch_\infty$ error between the full and reduced models,  \cite{RedK17} provides an $\ch_2$ error bound. 
+
+
+%In this paper,  we explore $\ch_2(\tf)$ optimality for model reduction over a finite time horizon. 
+%  We establish $\ch_2(\tf)$ optimality conditions over a finite time horizon and introduce an algorithm which yields better approximations of the large-scale dynamical systems compared to other model reduction methods.
+  
+\textcolor{red}{In this paper,  we explore optimal model reduction over a finite time horizon. We use a time-limited version of the $\ch_2$ norm, denoted by $\ch_2(\tf)$, to quantify the model reduction error.}
+ Optimality requires a parametrization of the reduced model. We will work with the time-domain representation of the dynamical system to derive the optimality conditions. Specifically, we represent the impulse response of the reduced dynamical system using the modal decomposition, i.e.,
  \begin{equation}\label{kernel}
 \begin{aligned}
 \h_r(t)=\C_r e^{\A_r t}\B_r=\sum_{i=1}^r e^{\lambda_it}\lc_i\rc_i^T.
@@ -85,7 +109,12 @@ In other words, the impulse response is expressed as a sum of $r$ rank-1 $p\time
 To simplify the presentation,  we assume  that $\lambda_i$'s, the reduced order poles,  are simple.  The representation \eqref{kernel} 
 is nothing but a state-space transformation on $\h_r(t)=\C_r e^{\A_r t}\B_r$ using the eigenvectors of $\A_r$. 
 Using the parametrization of the reduced model in \eqref{kernel}, we derive interpolatory optimality conditions in the $\ch_2(\tf)$ norm and implement a model reduction algorithm that satisfies these optimality conditions.
- The advantages of time-limited model reduction under the $\ch_2(\tf)$ norm are two fold: first, one can obtain a better approximation in the time interval of interest, and, second, one can obtain a locally optimal reduced order model in the case of unstable systems as well. 
+
+\textcolor{red}{The advantage of the interpolation framework we will develop  is that 
+we do not require the reduced-model to be obtained via projection, as usually assumed in model reduction \cite{Ant05}. Indeed, one observation we will make is that unlike in the infinite-horizon $\ch_2$ approximation problem, the optimal reduced model in the finite-horizon norm is not necessarily given by a projection and thus a projection-based approach will not be able to satisfy the optimality conditions. Therefore,  
+by treating the poles and residues in \eqref{kernel} as the parameters and directly working with them, we  obtain a reduced model to satisfy the optimality conditions exactly.}
+
+%The advantages of time-limited model reduction under the $\ch_2(\tf)$ norm are two fold: first, one can obtain a better approximation in the time interval of interest, and, second, one can obtain a locally optimal reduced order model in the case of unstable systems as well. 
 
 The rest of the paper is organized as follows: In Section  \ref{sec:intro} we briefly review optimal  $\ch_2$ model reduction in the infinite horizon case. The main results, including the new optimality conditions for finite horizon, are established in Section \ref{sec:main} followed by numerical examples in Section \ref{sec:num}. The papers ends with conclusions and future work in Section \ref{sec:conc}.
 
@@ -174,7 +203,7 @@ This result states that the transfer function of the optimal $\ch_2$ approximati
 %If we are interested  in the behavior of a system only in a finite time interval (or access to a numerical simulation only on a finite time interval), we can obtain better reduced models by defining the measure of approximation quality over the interval of interest, instead of  focussing on the infinite time horizon. 
 %
 {\color{red}
-In this section, we discuss the main result of the paper i.e. the $\ch_2(\tf)$ \footnote{Even though we are on the time domain we will still use the $\ch_2(\tf)$ notation. Since the time domain and frequency domain functions are equivalent,  this notation is appropriate. Furthermore, since the infinite horizon, and finite horizon case appear to be connected, the notation $\mathcal{H}_2(t_f)$ illustrates this connection. \cite{RedK17,GoyR17} use similar notation.} local optimality conditions, their proof, and the importance of such conditions for model reduction of large-scale dynamical systems.}
+In this section, we present  the main theoretical results of the paper i.e., the interpolatory $\ch_2(\tf)$  optimality conditions, and discuss their implications.}
 
 
 %Also, in case of an unstable system, since the impulse grows unbounded as $t \to \infty$, the regular $\ch_2$ measure cannot be applied. Therefore, we will focus on model reduction on a finite time horizon. 
@@ -186,7 +215,10 @@ It is immediately clear from the time-domain definition of the (infinite-horizon
 \begin{Definition}\label{innerh2}
 Let $\h(t)$ and $\g(t)$ denote the impulse responses of two dynamical systems with real state-space realizations.  
 For a finite-time horizon 
-$[0,t_f]$, the $\ch_2(\tf)$ inner product $\langle \cdot, \cdot \rangle_{\ch_2(\tf)}$ 
+$[0,t_f]$, the $\ch_2(\tf)$\footnote{\textcolor{red}{Even though we are using an error measure specifically formulated in the time domain,   following \cite{RedK17,GoyR17} we choose to use  the $\ch_2(\tf)$ notation, despite the term $\ch_2$  is mostly associated with a measure defined in the frequency domain. Our main reason is to keep the connection to the infinite horizon problem where the measure in the frequency- and time-domains are equivalent. And more importantly, as in the regular $\ch_2$ case, the optimality conditions will still appear as interpolation conditions in the frequency domain. 
+ %In the Since the time domain and frequency domain functions are equivalent,  this notation is appropriate. Furthermore, since the infinite horizon, and finite horizon case appear to be connected, the notation $\mathcal{H}_2(t_f)$ illustrates this connection. \cite{RedK17,GoyR17} use similar notation.
+ }}
+   inner product $\langle \cdot, \cdot \rangle_{\ch_2(\tf)}$ 
 and $\ch_2(\tf)$ norm $\norm{\cdot}_{\ch_2(\tf)}$ are defined as  
 \begin{align*}
 \langle \h, \g \rangle_{\ch_2(\tf)} &=\int_0^{\tf} \mathsf{Tr}( (\h(t))^T \g(t)) dt, \\%\quad \mbox{and}\quad
