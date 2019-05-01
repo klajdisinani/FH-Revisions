@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.23)  10 APR 2019 01:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.23)  30 APR 2019 14:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -568,18 +568,18 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 ) (./response.aux)
 \openout1 = `response.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -654,58 +654,95 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.15} (current compat level: 1.11).
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 34.
+LaTeX Font Info:    Try loading font information for U+msa on input line 35.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 34.
+LaTeX Font Info:    Try loading font information for U+msb on input line 35.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 43.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 44.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
  [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 106--108
+Underfull \hbox (badness 10000) in paragraph at lines 108--110
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 118--123
+Underfull \hbox (badness 10000) in paragraph at lines 120--125
 
  []
 
-[3] (./response.aux) ) 
+Package epstopdf Info: Source file: <absHeatErrorYlim.eps>
+(epstopdf)                    date: 2019-04-29 20:07:55
+(epstopdf)                    size: 53872 bytes
+(epstopdf)             Output file: <absHeatErrorYlim-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-30 14:31:00
+(epstopdf)                    size: 23674 bytes
+(epstopdf)             Command: <repstopdf --outfile=absHeatErrorYlim-eps-conve
+rted-to.pdf absHeatErrorYlim.eps>
+(epstopdf)             \includegraphics on input line 146.
+Package epstopdf Info: Output file is already uptodate.
+<absHeatErrorYlim-eps-converted-to.pdf, id=22, pagebox=cropbox, 837.1275pt x 51
+2.91624pt>
+File: absHeatErrorYlim-eps-converted-to.pdf Graphic file (type pdf)
+<use absHeatErrorYlim-eps-converted-to.pdf>
+Package pdftex.def Info: absHeatErrorYlim-eps-converted-to.pdf  used on input l
+ine 146. on input line 146.
+Package pdftex.def Info: Requested size: 418.56273pt x 256.45749pt on input lin
+e 146.
+Package epstopdf Info: Source file: <absUNSError.eps>
+(epstopdf)                    date: 2019-04-29 20:09:36
+(epstopdf)                    size: 20116 bytes
+(epstopdf)             Output file: <absUNSError-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-30 14:32:55
+(epstopdf)                    size: 10689 bytes
+(epstopdf)             Command: <repstopdf --outfile=absUNSError-eps-converted-
+to.pdf absUNSError.eps>
+(epstopdf)             \includegraphics on input line 151.
+Package epstopdf Info: Output file is already uptodate.
+<absUNSError-eps-converted-to.pdf, id=23, pagebox=cropbox, 837.1275pt x 512.916
+24pt>
+File: absUNSError-eps-converted-to.pdf Graphic file (type pdf)
+<use absUNSError-eps-converted-to.pdf>
+Package pdftex.def Info: absUNSError-eps-converted-to.pdf  used on input line 1
+51. on input line 151.
+Package pdftex.def Info: Requested size: 418.56273pt x 256.45749pt on input lin
+e 151.
+[3] [4 <./absHeatErrorYlim-eps-converted-to.pdf> <./absUNSError-eps-converted-t
+o.pdf>] [5] (./response.aux) ) 
 Here is how much of TeX's memory you used:
- 22289 strings out of 492990
- 576377 string characters out of 6132636
- 749196 words of memory out of 5000000
- 25452 multiletter control sequences out of 15000+600000
+ 22318 strings out of 492990
+ 576898 string characters out of 6132636
+ 749205 words of memory out of 5000000
+ 25466 multiletter control sequences out of 15000+600000
  12284 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,5n,96p,729b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-ss10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-8.pfb>
-Output written on response.pdf (3 pages, 99785 bytes).
+ 62i,8n,96p,729b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmss10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy8.pfb>
+Output written on response.pdf (5 pages, 128191 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 81 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

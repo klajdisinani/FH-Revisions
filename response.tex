@@ -1,4 +1,5 @@
 \documentclass[11pt]{article}
+\newcommand{\FH}{FHIRKA}
 
 
 \setlength{\textwidth}{6.5in}
@@ -43,7 +44,8 @@ manuscript.   We list below the referees' comments, followed by our responses, d
 \item My only concern is the fact that the term H2 is used on time-domain
 function, which might be inappropriate from a mathematical point of
 view?\\
-\serkan{\textsf{AR}: We thank the reviewer for this comment. Since the time domain and frequency domain functions are equivalent, we believe this notation is appropriate. Furthermore, since the infinite horizon, and finite horizon case appear to be connected, the notation $\mathcal{H}_2(t_f)$ illustrates this connection.}
+\serkan{\textsf{AR}: We thank the reviewer for this comment. Since the time domain and frequency domain functions are equivalent, we believe this notation is appropriate. Furthermore, since the infinite horizon, and finite horizon case appear to be connected, the notation $\mathcal{H}_2(t_f)$ illustrates this connection. We have explained further in the paper our choice of notation.
+} 
 \end{itemize}
 
 \section*{Referee \#2}
@@ -138,7 +140,19 @@ and Gr(s).  The authors can comment on the interpretation.\\
 the original and reduced-order models.	For example, showing impulse
 responses of the models enables readers to understand "practical"
 importance of the proposed method.\\
-\serkan{\textsf{AR}:  What model should we use for this?}
+\serkan{\textsf{AR}:  We thank the referee for the comment. We have added a graph showing the time responses for the error for different methods. Here are two additional graphs for two other models}
+ \begin{figure}[H]
+ \centering
+   \includegraphics [scale=0.5]{absHeatErrorYlim}
+      \caption{POD vs \FH for a heat model\label{fig:impulseHeat}}
+ \end{figure}
+ \begin{figure}[H]
+ \centering
+   \includegraphics [scale=0.5]{absUNSError}
+      \caption{POD vs \FH for an unstable model\ \label{fig:impulseUns}}
+ \end{figure}
+
+
 
 \item  There are some typos in the manuscript.  For example, the statement
 "G(s) and Gr(s) be as defined in (3.5) and (3.5)" in Lemma 3.3 should

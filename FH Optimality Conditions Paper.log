@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.23)  16 APR 2019 23:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.23)  30 APR 2019 15:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2213,6 +2213,9 @@ Underfull \hbox (badness 4556) in paragraph at lines 562--563
 \T1/cmr/m/n/10 FHIRKA with Proper Or-thog-o-nal De-com-po-si-tion
  []
 
+
+LaTeX Warning: Reference `impulse' on page 8 undefined on input line 577.
+
 [8]
 Package epstopdf Info: Source file: <fig1h.eps>
 (epstopdf)                    date: 2019-04-09 17:15:03
@@ -2222,20 +2225,15 @@ Package epstopdf Info: Source file: <fig1h.eps>
 (epstopdf)                    size: 17969 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig1h-eps-converted-to.pdf
  fig1h.eps>
-(epstopdf)             \includegraphics on input line 620.
+(epstopdf)             \includegraphics on input line 624.
 Package epstopdf Info: Output file is already uptodate.
 <fig1h-eps-converted-to.pdf, id=186, pagebox=cropbox, 497.86pt x 754.82pt>
 File: fig1h-eps-converted-to.pdf Graphic file (type pdf)
 <use fig1h-eps-converted-to.pdf>
-Package pdftex.def Info: fig1h-eps-converted-to.pdf  used on input line 620. on
- input line 620.
-Package pdftex.def Info: Requested size: 248.92938pt x 377.40909pt on input lin
-e 620.
-
-Overfull \hbox (8.92938pt too wide) in paragraph at lines 620--621
- [][] 
- []
-
+Package pdftex.def Info: fig1h-eps-converted-to.pdf  used on input line 624. on
+ input line 624.
+Package pdftex.def Info: Requested size: 174.2536pt x 264.19096pt on input line
+ 624.
 Package epstopdf Info: Source file: <fig2i.eps>
 (epstopdf)                    date: 2019-04-09 17:14:32
 (epstopdf)                    size: 34094 bytes
@@ -2244,19 +2242,17 @@ Package epstopdf Info: Source file: <fig2i.eps>
 (epstopdf)                    size: 13118 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig2i-eps-converted-to.pdf
  fig2i.eps>
-(epstopdf)             \includegraphics on input line 625.
+(epstopdf)             \includegraphics on input line 629.
 Package epstopdf Info: Output file is already uptodate.
 <fig2i-eps-converted-to.pdf, id=187, pagebox=cropbox, 562.1pt x 756.8275pt>
 File: fig2i-eps-converted-to.pdf Graphic file (type pdf)
 <use fig2i-eps-converted-to.pdf>
-Package pdftex.def Info: fig2i-eps-converted-to.pdf  used on input line 625. on
- input line 625.
-Package pdftex.def Info: Requested size: 281.04932pt x 378.41283pt on input lin
-e 625.
+Package pdftex.def Info: fig2i-eps-converted-to.pdf  used on input line 629. on
+ input line 629.
+Package pdftex.def Info: Requested size: 196.73795pt x 264.89359pt on input lin
+e 629.
 
-Overfull \hbox (41.04932pt too wide) in paragraph at lines 625--626
- [][] 
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package epstopdf Info: Source file: <fig3u.eps>
 (epstopdf)                    date: 2019-04-09 17:15:14
@@ -2266,34 +2262,52 @@ Package epstopdf Info: Source file: <fig3u.eps>
 (epstopdf)                    size: 14236 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig3u-eps-converted-to.pdf
  fig3u.eps>
-(epstopdf)             \includegraphics on input line 630.
+(epstopdf)             \includegraphics on input line 634.
 Package epstopdf Info: Output file is already uptodate.
 <fig3u-eps-converted-to.pdf, id=188, pagebox=cropbox, 511.9125pt x 756.8275pt>
 File: fig3u-eps-converted-to.pdf Graphic file (type pdf)
 <use fig3u-eps-converted-to.pdf>
-Package pdftex.def Info: fig3u-eps-converted-to.pdf  used on input line 630. on
- input line 630.
-Package pdftex.def Info: Requested size: 255.95563pt x 378.41283pt on input lin
-e 630.
+Package pdftex.def Info: fig3u-eps-converted-to.pdf  used on input line 634. on
+ input line 634.
+Package pdftex.def Info: Requested size: 179.17206pt x 264.89359pt on input lin
+e 634.
 
-Overfull \hbox (15.95563pt too wide) in paragraph at lines 630--631
- [][] 
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-(./FH Optimality Conditions Paper.bbl [9 <./fig1h-eps-converted-to.pdf>]
-[10 <./fig2i-eps-converted-to.pdf> <./fig3u-eps-converted-to.pdf>]) [11]
+ [9 <./fig1h-eps-converted-to.pdf> <./fig2i-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <ISS1RErrorSmooth.eps>
+(epstopdf)                    date: 2019-04-30 14:05:12
+(epstopdf)                    size: 51514 bytes
+(epstopdf)             Output file: <ISS1RErrorSmooth-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-30 14:05:39
+(epstopdf)                    size: 23712 bytes
+(epstopdf)             Command: <repstopdf --outfile=ISS1RErrorSmooth-eps-conve
+rted-to.pdf ISS1RErrorSmooth.eps>
+(epstopdf)             \includegraphics on input line 640.
+Package epstopdf Info: Output file is already uptodate.
+<ISS1RErrorSmooth-eps-converted-to.pdf, id=217, pagebox=cropbox, 562.1pt x 421.
+575pt>
+File: ISS1RErrorSmooth-eps-converted-to.pdf Graphic file (type pdf)
+<use ISS1RErrorSmooth-eps-converted-to.pdf>
+Package pdftex.def Info: ISS1RErrorSmooth-eps-converted-to.pdf  used on input l
+ine 640. on input line 640.
+Package pdftex.def Info: Requested size: 196.73795pt x 147.55345pt on input lin
+e 640.
+
+(./FH Optimality Conditions Paper.bbl [10 <./fig3u-eps-converted-to.pdf> <./ISS
+1RErrorSmooth-eps-converted-to.pdf>]) [11]
 
 Package caption Warning: Unused \captionsetup[sub] on input line 26.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 660.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 660.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 665.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 665.
 (./FH Optimality Conditions Paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 660.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 660.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 665.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 665.
 Package rerunfilecheck Info: File `"FH Optimality Conditions Paper".out' has no
 t changed.
-(rerunfilecheck)             Checksum: 7B25A08FE92B188ADFF974E013698275;1088.
+(rerunfilecheck)             Checksum: 9EB5BDE5ACCDB8ECED8E193CF3AEFF9D;1088.
 
 
 LaTeX Warning: There were undefined references.
@@ -2303,13 +2317,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 43631 strings out of 492990
- 973933 string characters out of 6132636
- 1122317 words of memory out of 5000000
- 46378 multiletter control sequences out of 15000+600000
+ 43640 strings out of 492990
+ 974192 string characters out of 6132636
+ 1122395 words of memory out of 5000000
+ 46385 multiletter control sequences out of 15000+600000
  560715 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,14n,128p,10431b,853s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 76i,14n,128p,10431b,849s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></u
@@ -2353,11 +2367,11 @@ pe1/public/cm-super/sfsl0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
 public/cm-super/sfti0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
 blic/cm-super/sfti1000.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
 ic/cm-super/sftt0900.pfb>
-Output written on "FH Optimality Conditions Paper.pdf" (11 pages, 610421 bytes)
+Output written on "FH Optimality Conditions Paper.pdf" (11 pages, 630823 bytes)
 .
 PDF statistics:
- 438 PDF objects out of 1000 (max. 8388607)
- 367 compressed objects within 4 object streams
- 118 named destinations out of 1000 (max. 500000)
- 132 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 448 PDF objects out of 1000 (max. 8388607)
+ 374 compressed objects within 4 object streams
+ 119 named destinations out of 1000 (max. 500000)
+ 137 words of extra memory for PDF output out of 10000 (max. 10000000)
 

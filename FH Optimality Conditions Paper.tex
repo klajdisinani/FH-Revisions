@@ -574,6 +574,10 @@ The results are shown in Figures \ref{fig:hm}--\ref{fig:uns},  where we show the
  While \FH \ improves TLBT and \goyal\ initialization as well, the improvements for the heat model are not as significant. However, for the ISS model,
 \FH \ is able to improve the TLBT performance as much as $50\%$; see, e.g., Figure \ref{fig:iss}, the $r=8$ case. 
 The best improvement of the \goyal \ initialization has occurred for the unstable model. For example, for $r=8$, for the unstable model, \FH\ improved the reduced model by more than $40 \%$. Gains were significantly better for POD, especially for larger $r$ values. 
+{\color{red} Also, in Figure \ref{impulse}, we compare the impulse responses of the error systems of POD and \FH \ for the ISS model. For both methods, POD and \FH\  the reduced model was of order $r=14$. As we can see from the graph, \FH \ clearly outperforms POD on the time interval $[0, 1]$.
+
+}
+
 % \begin{figure}[H] 
 % \centering
 % \begin{subfigure}{.5\textwidth}
@@ -615,28 +619,28 @@ The best improvement of the \goyal \ initialization has occurred for the unstabl
 % \end{figure}
 %
 
- \begin{figure}%[H] 
+ \begin{figure}[H] 
  \centering
- \includegraphics [scale=0.5]{fig1h} 
+ \includegraphics [scale=0.35]{fig1h} 
  \caption{\FH \ and other algorithms for a heat model\label{fig:hm}}
  \end{figure}
- \begin{figure}%[H]
+ \begin{figure}[H]
  \centering
-  \includegraphics [scale=0.5]{fig2i}
+  \includegraphics [scale=0.35]{fig2i}
  \caption{\FH \ and other algorithms for the heat model \label{fig:iss}}
  \end{figure}
-  \begin{figure}%[H]
+  \begin{figure}[H]
  \centering
-   \includegraphics [scale=0.5]{fig3u}
+   \includegraphics [scale=0.35]{fig3u}
       \caption{\FH \ and other algorithms for the ISS model \label{fig:uns}}
  \end{figure}
  
-% \begin{figure}[H]
-% \centering
-%   \includegraphics [scale=0.4]{fig4}
-%      \caption{\FH \ and other algorithms for the unstable model \label{fig:uns}}
-% \end{figure}
-%
+ \begin{figure}[H]
+ \centering
+   \includegraphics [scale=0.35]{ISS1RErrorSmooth}
+      \caption{\FH \ and other algorithms for the unstable model \label{fig:impulse}}
+ \end{figure}
+
 
  
  
@@ -654,6 +658,7 @@ As in the regular $\ch_2$-problem, establishing equivalency between the Sylveste
 
 %\section*{References}
 %\bibliographystyle{elsarticle-num}
+
 \bibliographystyle{plain}
 
 \bibliography{bibliography}
