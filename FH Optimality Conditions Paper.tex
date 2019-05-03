@@ -428,10 +428,9 @@ which completes the proof.
 %Remark
 \begin{remark}
 {\color{red} In the infinite-horizon case, if  $\HH_r(s)$ is the best $\ch_2$ approximation to $\HH(s)$, then $\HH_r(s)$ interpolates $\HH(s)$. However, in the finite-horizon case, 
-the interpolant is $\G_r(s)$, which is a function of $\HH_r(s)$, and the interpolated function is $\G(s)$, which is a function of $\HH(s)$; thus $\HH_r(s)$ does not interpolate $\HH(s)$. The interpolation of $\G(s)$ guarantees that we are approximating the model on the finite horizon. For instance, consider the inverse Laplace transform of $\G(s)$:
+the interpolant is $\G_r(s)$, and the interpolated function is $\G(s)$; thus $\HH_r(s)$ does not interpolate $\HH(s)$. The interpolation of $\G(s)$ guarantees that we are approximating the model on the finite horizon. For instance, consider the inverse Laplace transform of $\G(s)$:
 \begin{align*}
-\mathcal{L}^{-1}\{\G(s)\}&=\h(t)+\sum_{i=1}^n u_{\tf}(t)\phi_i e^{\lambda_i {\tf}}e^{\lambda_i (t-{\tf})}\\
-&=\h(t)+\sum_{i=1}^n u_{\tf}(t)\phi_i e^{\lambda_i t}
+\mathcal{L}^{-1}\{\G(s)\}&=u_{\tf}\h(t)
 \end{align*}
 where $u_{\tf}(t)$ is the unit step function
 \begin{align*}
@@ -442,7 +441,7 @@ u_{\tf}(t)=
    \end{cases}.
 \end{align*}
 In other words, if we were to use an $\ch_2$ optimal algorithm on $\G(s)$, we would be approximating a finite horizon model by an infinite horizon one. For this reason, the interpolation of $\G(s)$ by $\G_r(s)$ is necessary. 
-However, the optimal interpolation points  and directions are still determined by the reduced model $\HH_r(s)$. The algorithmic implications of this result will be revisited in Section \ref{sec:discuss}.}
+The optimal interpolation points  and directions are still determined by the reduced model $\HH_r(s)$. The algorithmic implications of this result will be revisited in Section \ref{sec:discuss}.}
 \end{remark}
 
 \begin{remark}
