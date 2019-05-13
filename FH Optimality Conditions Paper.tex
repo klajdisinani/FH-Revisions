@@ -37,7 +37,7 @@ Using the underlying inner product space, we derive the interpolatory first-orde
 %Introduction
 \section{Introduction}
 %Simulation, design, and control of dynamical systems play an important role in numerous scientific and industrial tasks such as signal propagation in the nervous system\cite{kellems2009low}, heat dissipation, prediction of major weather events \cite{BoyP11,Sha03,Ant05}. 
-Simulation, design, and control of dynamical systems play an important role in numerous scientific and industrial tasks such as \textcolor{red}{signal propagation in the nervous system\cite{kellems2009low};  the synthesis  of
+Simulation, design, and control of dynamical systems play an important role in numerous scientific and industrial tasks such as \textcolor{blue}{signal propagation in the nervous system\cite{kellems2009low};  the synthesis  of
 interconnect \cite{BonD07} and semiconductor devices \cite{Hess2014}; large-scale inverse problem,
  \cite{Druskin2011solution,Lieberman2010,de2015nonlinear}; and prediction of major weather events \cite{Ant05}.}
 The need for  detailed  models due to the increasing demand for greater resolution leads to  
@@ -97,7 +97,7 @@ For time-limited balanced truncation, \cite{GugA03} establishes an upper bound f
 %In this paper,  we explore $\ch_2(\tf)$ optimality for model reduction over a finite time horizon. 
 %  We establish $\ch_2(\tf)$ optimality conditions over a finite time horizon and introduce an algorithm which yields better approximations of the large-scale dynamical systems compared to other model reduction methods.
   
-\textcolor{red}{In this paper,  we explore optimal model reduction over a finite time horizon. We use a time-limited version of the $\ch_2$ norm, denoted by $\ch_2(\tf)$, to quantify the model reduction error.}
+\textcolor{blue}{In this paper,  we explore optimal model reduction over a finite time horizon. We use a time-limited version of the $\ch_2$ norm, denoted by $\ch_2(\tf)$, to quantify the model reduction error.}
  Optimality requires a parametrization of the reduced model. We will work with the time-domain representation of the dynamical system to derive the optimality conditions. Specifically, we represent the impulse response of the reduced dynamical system using the modal decomposition, i.e.,
  \begin{equation}\label{kernel}
 \begin{aligned}
@@ -110,7 +110,7 @@ To simplify the presentation,  we assume  that $\lambda_i$'s, the reduced order 
 is nothing but a state-space transformation on $\h_r(t)=\C_r e^{\A_r t}\B_r$ using the eigenvectors of $\A_r$. 
 Using the parametrization of the reduced model in \eqref{kernel}, we derive interpolatory optimality conditions in the $\ch_2(\tf)$ norm and implement a model reduction algorithm that satisfies these optimality conditions.
 
-\textcolor{red}{The advantage of the interpolation framework we will develop  is that 
+\textcolor{blue}{The advantage of the interpolation framework we will develop  is that 
 we do not require the reduced-model to be obtained via projection, as usually assumed in model reduction \cite{Ant05}. Indeed, one observation we will make is that unlike in the infinite-horizon $\ch_2$ approximation problem, the optimal reduced model in the finite-horizon norm is not necessarily given by a projection and thus a projection-based approach will not be able to satisfy the optimality conditions. Therefore,  
 by treating the poles and residues in \eqref{kernel} as the parameters and directly working with them, we  obtain a reduced model to satisfy the optimality conditions exactly.}
 
@@ -194,15 +194,16 @@ be the best $r^{th}$ order approximation of an asymptotically stable linear dyna
 \end{aligned}
 \end{equation}
 \end{theorem}
-{\color{red}For more details on theorem \ref{h2thm}, see {\cite {GugBA08}}.}
-This result states that the transfer function of the optimal $\ch_2$ approximation to $\HH(s)$ is a (tangential) Hermite interpolant where the interpolation points are the mirror images of the reduced-order poles $\{\lambda_k\}$, and the tangental directions are given by the corresponding residues $\{\lc_k\rc_k^T\}$. {\color{red} Throughout this paper, we denote the derivative of $\HH(s)$ by $\HH'(s)$.} Since the optimality conditions depend on the reduced-model to be computed, the solution requires a nonlinear iteration. The Iterative Rational Krylov Algorithm (IRKA)  \cite{GugBA08} and its variants such as \cite{beattie2012realization,gerstner2007hom,CasL18,beattie2009trust} use these interpolation based optimality conditions to produce   an interpolatory, locally $\ch_2$ optimal reduced model. The next section will extend this framework to the finite-time interval case.
+{\color{blue} where $\HH'(s)$ denotes the derivative of $\HH(s)$ with respect to $s$.}
+{\color{blue}For more details on Theorem \ref{h2thm}, see {\cite {GugBA08,AntBG10b}}.}
+This result states that the transfer function of the optimal $\ch_2$ approximation to $\HH(s)$ is a (tangential) Hermite interpolant where the interpolation points are the mirror images of the reduced-order poles $\{\lambda_k\}$, and the tangental directions are given by the corresponding residues $\{\lc_k\rc_k^T\}$.  Since the optimality conditions depend on the reduced-model to be computed, the solution requires a nonlinear iteration. The Iterative Rational Krylov Algorithm (IRKA)  \cite{GugBA08} and its variants such as \cite{beattie2012realization,gerstner2007hom,CasL18,beattie2009trust} use these interpolation based optimality conditions to produce   an interpolatory, locally $\ch_2$ optimal reduced model. The next section will extend this framework to the finite-time interval case.
 
 
 %FH model reduction
 \section{$\ch_2(\tf)$ Optimal Model Reduction on a Finite Horizon}  \label{sec:main} 
 %If we are interested  in the behavior of a system only in a finite time interval (or access to a numerical simulation only on a finite time interval), we can obtain better reduced models by defining the measure of approximation quality over the interval of interest, instead of  focussing on the infinite time horizon. 
 %
-{\color{red}
+{\color{blue}
 In this section, we present  the main theoretical results of the paper i.e., the interpolatory $\ch_2(\tf)$  optimality conditions, and discuss their implications.}
 
 
@@ -215,7 +216,7 @@ It is immediately clear from the time-domain definition of the (infinite-horizon
 \begin{Definition}\label{innerh2}
 Let $\h(t)$ and $\g(t)$ denote the impulse responses of two dynamical systems with real state-space realizations.  
 For a finite-time horizon 
-$[0,t_f]$, the $\ch_2(\tf)$\footnote{\textcolor{red}{Even though we are using an error measure specifically formulated in the time domain,   following \cite{RedK17,GoyR17} we choose to use  the $\ch_2(\tf)$ notation, despite the term $\ch_2$  is mostly associated with a measure defined in the frequency domain. Our main reason is to keep the connection to the infinite horizon problem where the measure in the frequency- and time-domains are equivalent. And more importantly, as in the regular $\ch_2$ case, the optimality conditions will still appear as interpolation conditions in the frequency domain. 
+$[0,t_f]$, the $\ch_2(\tf)$\footnote{\textcolor{blue}{Even though we are using an error measure specifically formulated in the time domain,   following \cite{RedK17,GoyR17} we choose to use  the $\ch_2(\tf)$ notation, despite the term $\ch_2$  is mostly associated with a measure defined in the frequency domain. Our main reason is to keep the connection to the infinite horizon problem where the measure in the frequency- and time-domains are equivalent. And more importantly, as in the regular $\ch_2$ case, the optimality conditions will still appear as interpolation conditions in the frequency domain. 
  %In the Since the time domain and frequency domain functions are equivalent,  this notation is appropriate. Furthermore, since the infinite horizon, and finite horizon case appear to be connected, the notation $\mathcal{H}_2(t_f)$ illustrates this connection. \cite{RedK17,GoyR17} use similar notation.
  }}
    inner product $\langle \cdot, \cdot \rangle_{\ch_2(\tf)}$ 
@@ -347,6 +348,7 @@ which proves \eqref{eqn:Gatlk}. To prove \eqref{eqn:Gpatlk}, we first differenti
  Plugging in $s= -\lambda_k$ in this last expression yields the desired result \eqref{eqn:Gpatlk}. The proofs of
  \eqref{eqn:Gpatlk} and \eqref{eqn:Grpatlk} follow analogously. 
 \end{pf}%%%Start proof here
+
 \textbf{{PROOF OF THEOREM \ref{mh2opt}.}}
  As mentioned above, let $\J$ denote the $\ch_2({\tf})$ error norm square, i.e., 
 \begin{align*}
@@ -394,7 +396,7 @@ which proves \eqref{eqn:cond1} and \eqref{eqn:cond2}. To prove \eqref{eqn:cond3}
 \pder[\J]{\lambda_k}=-2\lc_k^T \left(\sum_{j=1}^n \cc_j\bb_j^T \dfrac{{\tf}(\lambda_k+\rho_j)e^{(\rho_j+\lambda_k){\tf}}} {(\lambda_k+\rho_j)^2}     -\dfrac       {e^{(\rho_j+\lambda_k){\tf}}-1}{(\lambda_k+\rho_j)^2}\right)\rc_k 
 +2\lc_k^T \left(\sum^r_{i=1} \lc_i\rc_i^T\dfrac{{\tf}(\lambda_i+\lambda_j\k)e^{(\lambda_i+\lambda_k){\tf}}}  {(\lambda_i+\lambda_k)^2}         -\dfrac{e^{(\lambda_i+\lambda_k){\tf}}-1}{(\lambda_i+\lambda_k)^2}\right)\rc_k.
 \end{dmath}
-{\color{red}
+{\color{blue}
 Note that the first term in \eqref{eqn:diffl} corresponds to the derivative of the second term in \eqref{merror} and the second term in \eqref{eqn:diffl} corresponds to the derivative of the last four terms in \eqref{merror}.}
 We rewrite \eqref{eqn:diffl} to obtain 
 
@@ -423,43 +425,44 @@ If $\pder[\J]{\lambda_k}= 0$, then
 \end{align*}
 which completes the proof.
 \begin{flushright} $\Box$  \end{flushright}
-{\color{red} We note that the interval of interest is problem dependent and the choice of the interval i.e. the choice of $t_f$ may depend on the model, however, these optimality conditions hold for any choice of $t_f>0$.}
+{\color{blue} We note that the interval of interest is problem dependent and the choice of the interval, i.e., the choice of $t_f$, may depend on the model. However, these optimality conditions hold for any choice of $t_f>0$.}
 
 %Remark
 \begin{remark}
-{\color{red} In the infinite-horizon case, if  $\HH_r(s)$ is the best $\ch_2$ approximation to $\HH(s)$, then $\HH_r(s)$ interpolates $\HH(s)$. However, in the finite-horizon case, 
-the interpolant is $\G_r(s)$, and the interpolated function is $\G(s)$; thus $\HH_r(s)$ does not interpolate $\HH(s)$. The interpolation of $\G(s)$ guarantees that we are approximating the model on the finite horizon. For instance, consider the inverse Laplace transform of $\G(s)$:
-\begin{align*}
-\mathcal{L}^{-1}\{\G(s)\}&=u_{\tf}\h(t)
-\end{align*}
-where $u_{\tf}(t)$ is the unit step function
-\begin{align*}
-u_{\tf}(t)=
- \begin{cases} 
-      1 &    t\leq {\tf} \\    
-      0 &    t > {\tf} 
-   \end{cases}.
-\end{align*}
-In other words, if we were to use an $\ch_2$ optimal algorithm on $\G(s)$, we would be approximating a finite horizon model by an infinite horizon one. For this reason, the interpolation of $\G(s)$ by $\G_r(s)$ is necessary. 
-The optimal interpolation points  and directions are still determined by the reduced model $\HH_r(s)$. The algorithmic implications of this result will be revisited in Section \ref{sec:discuss}.}
+{\color{blue} In the infinite-horizon case, if  $\HH_r(s)$ is the best $\ch_2$ approximation to $\HH(s)$, then $\HH_r(s)$ interpolates $\HH(s)$. However, in the finite-horizon case, 
+the interpolant is $\G_r(s)$, and the interpolated function is $\G(s)$; thus $\HH_r(s)$ does not interpolate $\HH(s)$. To give more intuition about these resulting interpolation conditions, considere the time-limited function $\g(t)$ such that 
+$\g(t)=\h(t)$ when   $t\leq {\tf}$ and $\g(t)=0$ when when $t > {\tf}$.
+%\begin{align*}
+%\g(t)=
+% \begin{cases} 
+%      \h(t) &    t\leq {\tf}, \\    
+%      0 &    t > {\tf}.
+%   \end{cases}
+%\end{align*}
+A direct calculation shows that $\G(s)$ is the Laplace transformation of $\g(t)$. Similarly let $\g_r(t)$ 
+denote the time-limited version of $\h_r(t)$. Then its Laplace transformation is 
+ $\G_r(s)$.  Therefore, the optimality conditions  \eqref{eqn:cond1}--\eqref{eqn:cond3}
+ correspond to optimal interpolation of $\G(s)$ (Laplace transform of a time-limited function)
+ by $\G_r(s)$, (Laplace transform of another time limited function.) The fact that  
+ $\g(t)$ and   $\g_r(t)$ are both time-limited is the precise reason  why we cannot simply apply $\ch_2$ optimal reduction  to $\G(s)$. The method of \cite{beattie2012realization}, called TF-IRKA, does not require the original function to be a rational function. Thus, in principle we can use TF-IRKA to reduce $\G(s)$. However, the resulting reduced model is a rational function without any structure. In our case, the reduced model $\G_r(s)$ needs to retain the same structure as $\G(s)$ so that we can extract an $\HH_r(s)$. In other words, if we simply apply an $\ch_2$ optimal algorithm to $\G(s)$, we would be approximating a finite horizon model by an infinite horizon one and we cannot extract $\HH_r(s)$. Therefore, a new  algorithmic framework  is needed as we discuss in more detail in Section \ref{sec:discuss}.}
 \end{remark}
 
 \begin{remark}
-{\color {red}
-We would like to point out that for an unstable dynamical system, if the matrix $\A$ does not have purely imaginary eigenvalues, one can work with the
- $\mathcal{L}_2$ norm by decomposing it into a stable and anti-stable system, and then obtain an interpolatory reduced model based on this measure.  However, this solution requires destroying the causality of the underlying dynamics \cite{magruder2010rational}. This is not the framework we are interested in here and we will work with a finite-time interval. }
+{\color{blue}
+For an unstable dynamical system without any purely imaginary eigenvalues, one can work with the
+ $\mathcal{L}_2$ norm by decomposing it into a stable and anti-stable system, and then obtain an interpolatory reduced model based on this measure.  However, this solution requires destroying the causality of the underlying dynamics \cite{magruder2010rational}. This is not the framework we are interested in here and we  work with a finite-time interval. }
  \end{remark}
 
 
 %%remark
 %\begin{remark}
-%{\color{red} In the infinite-horizon case, if $\HH_r(s)$ is the best $\ch_2$ approximation to $\HH(s)$, then $\HH_r(s)$ interpolates $\HH(s)$. However, in the finite-horizon case, 
+%{\color{blue} In the infinite-horizon case, if $\HH_r(s)$ is the best $\ch_2$ approximation to $\HH(s)$, then $\HH_r(s)$ interpolates $\HH(s)$. However, in the finite-horizon case, 
 %the interpolant is $\G_r(s)$, which is a function of $\HH_r(s)$, and the interpolated function is $\G(s)$, which is a function of $\HH(s)$; thus $\HH_r(s)$ does not interpolate $\HH(s)$ in this case. However, the optimal interpolation points  and directions are still determined by the reduced model $\HH_r(s)$. The algorithmic implications of this result will be revisited in Section \ref{sec:discuss}.}
 %\end{remark}
 %
 %
 %%Proposition 
-%{\color{red}
+%{\color{blue}
 %The following proposition sheds some light on the physical interpretation of 
 %\begin{Proposition}
 %Let  $\G(s)=-e^{-s{\tf}}\C(s\I-\A)^{-1}e^{\A {\tf}}\B+\HH(s)$ where $\HH(s)=\C(s\I-\A)^{-1}\B$  is the transfer function of \eqref{fom1}. Then, $\norm{\G}_{\ch_2({\tf})}=\norm{\HH}_{\ch_2({\tf})}$
@@ -598,15 +601,24 @@ We have created the unstable system such that it has $400$ stable poles and $2$ 
 
 For all three models, we choose $t_f = 1$, first reduce the original model using POD, \goyal \  or TLBT, and then use the resulting reduced model  to initialize \FH. Thus, we are trying to investigate how these different initializations affect the final reduced model via  \FH \ and how much improvement one might expect.
 The results are shown in Figures \ref{fig:hm}--\ref{fig:uns},  where we show the $\ch_2(\tf)$ approximation error for different values of $r$, the order of the reduced model.
-  All three initializations are used for the heat model (Figure \ref{fig:hm}) where the order is reduced from $r=2$ to $r=10$ with increments of one. For some $r$ values, certain initializations are excluded (e.g., the \goyal \ initialization for $r=6$) since the algorithm either did not converge or produced  poor approximations. However, this happened rarely. For the ISS model (Figure \ref{fig:iss}), we use  TLBT and \goyal \ initializations since  POD produced very poor approximations and thus is excluded. In this case, we reduce the order from $r=2$ to $r=14$ with increments of $2$. For the unstable model (Figure \ref{fig:uns}), we use POD and \goyal \ initializations; for this model our implementation of TLBT produced  poor results and is avoided. In this case,  we reduce the order from $r=2$ to $r=12$ with increments of $2$.  
+  All three initializations are used for the heat model (Figure \ref{fig:hm}) where the order is reduced from $r=2$ to $r=10$ with increments of one. For some $r$ values, certain initializations are excluded (e.g., the \goyal \ initialization for $r=6$) since the algorithm either did not converge or produced  poor approximations. However, this happened only rarely.
+  
+   \begin{figure}[H] 
+ \centering
+ \includegraphics [scale=0.35]{fig1h} 
+ \caption{\FH \ and other algorithms for the heat model\label{fig:hm}}
+ \end{figure}
+
+  
+  
+   For the ISS model (Figure \ref{fig:iss}), we use  TLBT and \goyal \ initializations since  POD approximations was very poor and  is excluded. In this case, we reduce the order from $r=2$ to $r=14$ with increments of $2$. For the unstable model (Figure \ref{fig:uns}), we use POD and \goyal \ initializations; for this model our implementation of TLBT produced  poor results and is avoided. In this case,  we reduce the order from $r=2$ to $r=12$ with increments of $2$.  
  The first observation is that,  since  \FH \ is a descent-method and drives the initialization to a local minimizer,  it improves the accuracy of  the reduced model for all three initializations as expected. The improvements could be dramatic. For example, 
  \FH \ is able to outperform POD as much as by an order of magnitude, see, for example,
  Figure \ref{fig:hm}, the  $r=4$ and $r=5$ cases. 
  While \FH \ improves TLBT and \goyal\ initialization as well, the improvements for the heat model are not as significant. However, for the ISS model,
 \FH \ is able to improve the TLBT performance as much as $50\%$; see, e.g., Figure \ref{fig:iss}, the $r=8$ case. 
 The best improvement of the \goyal \ initialization has occurred for the unstable model. For example, for $r=8$, for the unstable model, \FH\ improved the reduced model by more than $40 \%$. Gains were significantly better for POD, especially for larger $r$ values. 
-{\color{red} Also, in Figure \ref{fig:impulse}, we compare the impulse responses of the error systems of POD and \FH \ for the ISS model. For both methods, POD and \FH\  the reduced model was of order $r=14$. As we can see from the graph, \FH \ clearly outperforms POD on the time interval $[0, 1]$.
-
+{\color{blue} 
 }
 
 % \begin{figure}[H] 
@@ -650,11 +662,6 @@ The best improvement of the \goyal \ initialization has occurred for the unstabl
 % \end{figure}
 %
 
- \begin{figure}[H] 
- \centering
- \includegraphics [scale=0.35]{fig1h} 
- \caption{\FH \ and other algorithms for a heat model\label{fig:hm}}
- \end{figure}
  \begin{figure}[H]
  \centering
   \includegraphics [scale=0.35]{fig2i}
@@ -663,13 +670,16 @@ The best improvement of the \goyal \ initialization has occurred for the unstabl
   \begin{figure}[H]
  \centering
    \includegraphics [scale=0.35]{fig3u}
-      \caption{\FH \ and other algorithms for the ISS model \label{fig:uns}}
+      \caption{\FH \ and other algorithms for the unstable model \label{fig:uns}}
  \end{figure}
+ 
+\textcolor{blue}{Finally, in Figure \ref{fig:impulse}, we compare the error in the impulse responses due to POD and \FH \ for the ISS model. For both methods, POD and \FH\  the reduced model was of order $r=14$. As we can see from the graph, \FH \ clearly outperforms POD on the time interval $[0, 1]$.}
+
  
  \begin{figure}[H]
  \centering
    \includegraphics [scale=0.35]{ISS1RErrorSmooth}
-      \caption{\FH \ and other algorithms for the unstable model \label{fig:impulse}}
+      \caption{\FH \ and POD for the ISS 1R model \label{fig:impulse}}
  \end{figure}
 
 
