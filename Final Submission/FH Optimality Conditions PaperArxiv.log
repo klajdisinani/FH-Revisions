@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.23)  1 SEP 2019 18:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.23)  20 MAY 2019 01:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"FH Optimality Conditions Paper.tex"
-(./FH Optimality Conditions Paper.tex
+**"FH Optimality Conditions PaperArxiv.tex"
+(./FH Optimality Conditions PaperArxiv.tex
 LaTeX2e <2017-04-15>
 Babel <3.12> and hyphenation patterns for 84 language(s) loaded.
 (./autart.cls
-Document Class: autart 2001/03/28, 2.18pl1: Automatica
+Document Class: autart 2001/03/28, 2.18pl1: Elsevier
 \@frontmatterwidth=\dimen102
 \@bls=\dimen103
 \eqntopsep=\skip41
@@ -70,10 +70,10 @@ LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 \c@lastpage=\count106
 \slashbox=\box29
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 1441.
+(Font)              <7> on input line 1443.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 1441.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 1441.
+(Font)              <5> on input line 1443.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 1443.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ulasy.fd
@@ -81,7 +81,7 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 \Slashbox=\box30
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 1442.
+(Font)              <14.4> on input line 1444.
 )
 (./paperPreamble.tex
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
@@ -1816,8 +1816,8 @@ LaTeX Info: Redefining \genfrac on input line 145.
 \c@theorem=\count397
 \c@Theorem=\count398
 )
-(./FH Optimality Conditions Paper.aux)
-\openout1 = `"FH Optimality Conditions Paper.aux"'.
+(./FH Optimality Conditions PaperArxiv.aux)
+\openout1 = `"FH Optimality Conditions PaperArxiv.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
@@ -1891,9 +1891,10 @@ LaTeX Info: Redefining \ref on input line 15.
 LaTeX Info: Redefining \pageref on input line 15.
 LaTeX Info: Redefining \nameref on input line 15.
 
-(./FH Optimality Conditions Paper.out) (./FH Optimality Conditions Paper.out)
+(./FH Optimality Conditions PaperArxiv.out)
+(./FH Optimality Conditions PaperArxiv.out)
 \@outlinefile=\write4
-\openout4 = `"FH Optimality Conditions Paper.out"'.
+\openout4 = `"FH Optimality Conditions PaperArxiv.out"'.
 
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
@@ -2069,56 +2070,56 @@ m/it/10 s\OT1/cmr/m/n/10 ) = [] []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 203.
+(hyperref)                removing `math shift' on input line 204.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 203.
+(hyperref)                removing `subscript' on input line 204.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 203.
+(hyperref)                removing `math shift' on input line 204.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 214.
+(hyperref)                removing `math shift' on input line 215.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 214.
+(hyperref)                removing `math shift' on input line 215.
 
 
-Underfull \hbox (badness 3849) in paragraph at lines 232--232
+Underfull \hbox (badness 3849) in paragraph at lines 233--233
 []\T1/cmr/m/it/10 Finite Hori-zon Interpolation-based Con-di-tions
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 232.
+(hyperref)                removing `math shift' on input line 233.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 232.
+(hyperref)                removing `subscript' on input line 233.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 232.
+(hyperref)                removing `math shift' on input line 233.
 
 [3]
 Package hyperref Info: bookmark level for unknown Lemma defaults to 0 on input 
-line 253.
+line 254.
 
-Overfull \hbox (4.8542pt too wide) detected at line 279
+Overfull \hbox (4.8542pt too wide) detected at line 280
 []
  []
 
 
-Underfull \hbox (badness 2680) in paragraph at lines 279--281
+Underfull \hbox (badness 2680) in paragraph at lines 280--282
 \T1/cmr/m/n/10 Computing the in-te-gral and us-ing the fact that
  []
 
 
-Overfull \hbox (0.25319pt too wide) in paragraph at lines 334--336
+Overfull \hbox (0.25319pt too wide) in paragraph at lines 335--337
 \T1/cmr/bx/n/10 PROOF.\T1/cmr/m/n/10 Recall the def-i-ni-tion of $\OT1/cmr/bx/n
 /10 G\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s\OT1/cmr/m/n/10 ) = \OMS/cmsy/m/n/10 ^^
 @\OML/cmm/m/it/10 e[]\OT1/cmr/bx/n/10 C\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s\OT1/
@@ -2126,7 +2127,7 @@ cmr/bx/n/10 I \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Underfull \hbox (badness 4108) in paragraph at lines 334--336
+Underfull \hbox (badness 4108) in paragraph at lines 335--337
 \T1/cmr/m/n/10 fact and the pole-zero residue de-com-po-si-tion of
  []
 
@@ -2134,7 +2135,7 @@ Underfull \hbox (badness 4108) in paragraph at lines 334--336
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
-Underfull \hbox (badness 1776) in paragraph at lines 341--345
+Underfull \hbox (badness 1776) in paragraph at lines 342--346
 \T1/cmr/m/n/10 Thus, $\OT1/cmr/bx/n/10 G\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\O
 ML/cmm/m/it/10 ^^U[]\OT1/cmr/m/n/10 ) = [][] [][][][][]$\T1/cmr/m/n/10 , which
  []
@@ -2144,24 +2145,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
 
-LaTeX Warning: Command \k invalid in math mode on input line 397.
+LaTeX Warning: Command \k invalid in math mode on input line 398.
 
 
-LaTeX Warning: Command \k invalid in math mode on input line 411.
+LaTeX Warning: Command \k invalid in math mode on input line 412.
 
 Package hyperref Info: bookmark level for unknown remark defaults to 0 on input
- line 432.
+ line 433.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 503.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 503.
+(hyperref)                removing `math shift' on input line 504.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 503.
+(hyperref)                removing `subscript' on input line 504.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 504.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2170,21 +2171,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (2.79733pt too wide) in paragraph at lines 527--527
+Overfull \hbox (2.79733pt too wide) in paragraph at lines 528--528
 []\T1/cmr/m/it/10 A descent-type al-go-rithm for the single-input/single-
  []
 
 Package hyperref Info: bookmark level for unknown corollary defaults to 0 on in
-put line 538.
+put line 539.
 [7]
-Underfull \hbox (badness 2050) in paragraph at lines 557--562
+Underfull \hbox (badness 2050) in paragraph at lines 558--563
 []\T1/cmr/m/it/10 , and $\OT1/cmr/bx/n/10 G\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s\
 OT1/cmr/m/n/10 )$ \T1/cmr/m/it/10 and $\OT1/cmr/bx/n/10 G[]\OT1/cmr/m/n/10 (\OM
 L/cmm/m/it/10 s\OT1/cmr/m/n/10 )$ \T1/cmr/m/it/10 as in []. As-sume
  []
 
 
-Overfull \hbox (4.93773pt too wide) detected at line 565
+Overfull \hbox (4.93773pt too wide) detected at line 566
 \OT1/cmr/bx/n/10 z[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 e[][][]\OT1/cmr/m/n/10 
 (\OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 ^^U[]\OT1/cmr/bx/n/10 I \OMS/cmsy/m/n/10 
 ^^@ \OT1/cmr/bx/n/10 A\OT1/cmr/m/n/10 )[]\OML/cmm/m/it/10 e[][] \OMS/cmsy/m/n/1
@@ -2194,7 +2195,7 @@ Overfull \hbox (4.93773pt too wide) detected at line 565
  []
 
 
-Underfull \hbox (badness 4556) in paragraph at lines 597--598
+Underfull \hbox (badness 4556) in paragraph at lines 598--599
 \T1/cmr/m/n/10 FHIRKA with Proper Or-thog-o-nal De-com-po-si-tion
  []
 
@@ -2203,86 +2204,91 @@ Package epstopdf Info: Source file: <fig1h.eps>
 (epstopdf)                    date: 2019-04-09 17:15:03
 (epstopdf)                    size: 84983 bytes
 (epstopdf)             Output file: <fig1h-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-04-09 17:18:56
+(epstopdf)                    date: 2019-05-18 23:23:52
 (epstopdf)                    size: 17969 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig1h-eps-converted-to.pdf
  fig1h.eps>
-(epstopdf)             \includegraphics on input line 609.
+(epstopdf)             \includegraphics on input line 610.
 Package epstopdf Info: Output file is already uptodate.
 <fig1h-eps-converted-to.pdf, id=186, pagebox=cropbox, 497.86pt x 754.82pt>
 File: fig1h-eps-converted-to.pdf Graphic file (type pdf)
 <use fig1h-eps-converted-to.pdf>
-Package pdftex.def Info: fig1h-eps-converted-to.pdf  used on input line 609. on
- input line 609.
+Package pdftex.def Info: fig1h-eps-converted-to.pdf  used on input line 610. on
+ input line 610.
 Package pdftex.def Info: Requested size: 174.2536pt x 264.19096pt on input line
- 609.
+ 610.
 Package epstopdf Info: Source file: <fig2i.eps>
 (epstopdf)                    date: 2019-04-09 17:14:32
 (epstopdf)                    size: 34094 bytes
 (epstopdf)             Output file: <fig2i-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-04-09 17:18:56
+(epstopdf)                    date: 2019-05-18 23:23:52
 (epstopdf)                    size: 13118 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig2i-eps-converted-to.pdf
  fig2i.eps>
-(epstopdf)             \includegraphics on input line 668.
+(epstopdf)             \includegraphics on input line 669.
 Package epstopdf Info: Output file is already uptodate.
 <fig2i-eps-converted-to.pdf, id=187, pagebox=cropbox, 562.1pt x 756.8275pt>
 File: fig2i-eps-converted-to.pdf Graphic file (type pdf)
 <use fig2i-eps-converted-to.pdf>
-Package pdftex.def Info: fig2i-eps-converted-to.pdf  used on input line 668. on
- input line 668.
+Package pdftex.def Info: fig2i-eps-converted-to.pdf  used on input line 669. on
+ input line 669.
 Package pdftex.def Info: Requested size: 196.73795pt x 264.89359pt on input lin
-e 668.
+e 669.
 Package epstopdf Info: Source file: <fig3u.eps>
 (epstopdf)                    date: 2019-04-09 17:15:14
 (epstopdf)                    size: 49374 bytes
 (epstopdf)             Output file: <fig3u-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-04-09 17:18:57
+(epstopdf)                    date: 2019-05-18 23:23:52
 (epstopdf)                    size: 14236 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig3u-eps-converted-to.pdf
  fig3u.eps>
-(epstopdf)             \includegraphics on input line 673.
+(epstopdf)             \includegraphics on input line 674.
 Package epstopdf Info: Output file is already uptodate.
 <fig3u-eps-converted-to.pdf, id=188, pagebox=cropbox, 511.9125pt x 756.8275pt>
 File: fig3u-eps-converted-to.pdf Graphic file (type pdf)
 <use fig3u-eps-converted-to.pdf>
-Package pdftex.def Info: fig3u-eps-converted-to.pdf  used on input line 673. on
- input line 673.
+Package pdftex.def Info: fig3u-eps-converted-to.pdf  used on input line 674. on
+ input line 674.
 Package pdftex.def Info: Requested size: 179.17206pt x 264.89359pt on input lin
-e 673.
+e 674.
  [9 <./fig1h-eps-converted-to.pdf> <./fig2i-eps-converted-to.pdf> <./fig3u-eps-
 converted-to.pdf>]
 Package epstopdf Info: Source file: <ISS1RErrorSmooth.eps>
 (epstopdf)                    date: 2019-05-01 14:37:27
 (epstopdf)                    size: 51514 bytes
 (epstopdf)             Output file: <ISS1RErrorSmooth-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-05-01 14:37:27
+(epstopdf)                    date: 2019-05-18 23:23:53
 (epstopdf)                    size: 23712 bytes
 (epstopdf)             Command: <repstopdf --outfile=ISS1RErrorSmooth-eps-conve
 rted-to.pdf ISS1RErrorSmooth.eps>
-(epstopdf)             \includegraphics on input line 682.
+(epstopdf)             \includegraphics on input line 683.
 Package epstopdf Info: Output file is already uptodate.
 <ISS1RErrorSmooth-eps-converted-to.pdf, id=229, pagebox=cropbox, 562.1pt x 421.
 575pt>
 File: ISS1RErrorSmooth-eps-converted-to.pdf Graphic file (type pdf)
 <use ISS1RErrorSmooth-eps-converted-to.pdf>
 Package pdftex.def Info: ISS1RErrorSmooth-eps-converted-to.pdf  used on input l
-ine 682. on input line 682.
+ine 683. on input line 683.
 Package pdftex.def Info: Requested size: 196.73795pt x 147.55345pt on input lin
-e 682.
- (./FH Optimality Conditions Paper.bbl [10 <./ISS1RErrorSmooth-eps-converted-to
-.pdf>]) [11]
+e 683.
+ (./FH Optimality Conditions PaperArxiv.bbl [10 <./ISS1RErrorSmooth-eps-convert
+ed-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 129--133
+[]\T1/cmr/m/n/8 S. Gugercin, A.C. An-toulas,
+ []
+
+) [11]
 
 Package caption Warning: Unused \captionsetup[sub] on input line 26.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 707.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 707.
-(./FH Optimality Conditions Paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 707.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 707.
-Package rerunfilecheck Info: File `"FH Optimality Conditions Paper".out' has no
-t changed.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 708.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 708.
+(./FH Optimality Conditions PaperArxiv.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 708.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 708.
+Package rerunfilecheck Info: File `"FH Optimality Conditions PaperArxiv".out' h
+as not changed.
 (rerunfilecheck)             Checksum: 9EB5BDE5ACCDB8ECED8E193CF3AEFF9D;1088.
 
 
@@ -2291,12 +2297,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
  ) 
 Here is how much of TeX's memory you used:
  43647 strings out of 492990
- 974338 string characters out of 6132636
- 1122570 words of memory out of 5000000
+ 974413 string characters out of 6132636
+ 1122606 words of memory out of 5000000
  46387 multiletter control sequences out of 15000+600000
  560715 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,12n,128p,10431b,847s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 76i,12n,128p,10436b,849s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></u
@@ -2340,8 +2346,8 @@ pe1/public/cm-super/sfsl0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
 public/cm-super/sfti0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
 blic/cm-super/sfti1000.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
 ic/cm-super/sftt0900.pfb>
-Output written on "FH Optimality Conditions Paper.pdf" (11 pages, 632836 bytes)
-.
+Output written on "FH Optimality Conditions PaperArxiv.pdf" (11 pages, 633041 b
+ytes).
 PDF statistics:
  454 PDF objects out of 1000 (max. 8388607)
  380 compressed objects within 4 object streams

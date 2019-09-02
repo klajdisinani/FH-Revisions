@@ -1,0 +1,13 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{H_2-Optimal Model Reduction: The Infinite Horizon Case}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{H_2 Norm and H_2 Error Measure}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Interpolatory Conditions for Optimal H_2 Model Reduction}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{H_2\(tf\) Optimal Model Reduction on a Finite Horizon}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{H_2\(t_f\) Norm on a Finite-time Horizon}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Finite Horizon Interpolation-based Conditions H_2\(tf\) Optimal Model Reduction}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.3}{Implication of the interpolatory H_2\(tf\) optimality conditions}{section.3}% 8
+\BOOKMARK [1][-]{section.4}{Numerical considerations}{}% 9
+\BOOKMARK [2][-]{subsection.4.1}{A descent-type algorithm for the single-input/single-output case}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.2}{Numerical Results}{section.4}% 11
+\BOOKMARK [1][-]{section.5}{Conclusions and Future Work}{}% 12
+\BOOKMARK [1][-]{section*.5}{References}{}% 13

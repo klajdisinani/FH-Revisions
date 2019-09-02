@@ -1,0 +1,32 @@
+%% vtmathlet.sty - Virgina Tech letterhead style (for letter class)
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{vtmathlet}[2006/11/14 Virginia Tech Math letterhead]
+\RequirePackage{graphicx}
+
+\def\logo{\null\vspace{-148pt}\hspace{-8pt}
+\centerline{\includegraphics[bb = 0 650 518 750]{./VTletterhead/vtmathhead.eps}}\par}
+\def\@texttop{\vskip 0pt}
+
+\def\@oddfoot{\centerline{\includegraphics[bb = 5 20 523 80]{./VTletterhead/vtfoot.eps}}\par}
+\def\@venfoot{\centerline{\includegraphics[bb = 5 20 523 80]{./VTletterhead/vtfoot.eps}}\par}
+
+\def\opening#1{\logo
+   \vspace{20pt}
+   \ifx\@empty\fromaddress
+  \thispagestyle{firstpage}%
+    {\raggedleft\@date\par}%
+  \else  % home address
+    \thispagestyle{empty}%
+    {\raggedleft\begin{tabular}{l@{}}\ignorespaces
+      \fromaddress \\*[2\parskip]%
+      \@date \end{tabular}\par}%
+  \fi
+  \vspace{2\parskip}%
+  {\raggedright \toname \\ \toaddress \par}%
+  \vspace{2\parskip}%
+  #1\par\nobreak}
+
+\setlength{\textwidth}{6.5in}
+\setlength{\oddsidemargin}{0.0in}
+\setlength{\topmargin}{0.0in}
